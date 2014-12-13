@@ -1,0 +1,49 @@
+name = "meatLeaf";
+material = "leaves";
+stepSound = "grass";
+creativeTab = "buildingBlocks";
+
+addToCreative[0] = true;
+canSilkHarvest[0] = true;
+fortuneModifier[0] = 1;
+hardness[0] = 35.0;
+information[0] = "These Leaves Whisper in the Wind|But What are they Saying?|and to Whom?";
+toolClass[0] = "axe";
+harvestLevel[0] = 0;
+resistance[0] = 12.0;
+drop[0] = "minecraft:porkchop 2";
+textureFileXP[0] = "MeatLeaf.png";
+textureFileXN[0] = "MeatLeaf.png";
+textureFileYP[0] = "MeatLeaf.png";
+textureFileYN[0] = "MeatLeaf.png";
+textureFileZP[0] = "MeatLeaf.png";
+textureFileZN[0] = "MeatLeaf.png";
+
+addToCreative[1] = true;
+canSilkHarvest[1] = true;
+hardness[1] = 35.0;
+information[1] = "These Leaves Whisper in the Wind|But What are they Saying?|and to Whom?";
+toolClass[1] = "axe";
+harvestLevel[1] = 0;
+resistance[1] = 12.0;
+textureFileXP[1] = "leaves_taint_opaque.png";
+textureFileXN[1] = "leaves_taint_opaque.png";
+textureFileYP[1] = "leaves_taint_opaque.png";
+textureFileYN[1] = "leaves_taint_opaque.png";
+textureFileZP[1] = "leaves_taint_opaque.png";
+textureFileZN[1] = "leaves_taint_opaque.png";
+
+
+addToCreative[2] = true;
+canSilkHarvest[2] = true;
+hardness[2] = 1.0;
+information[2] = "These Leaves Whisper in the Wind|But What are they Saying?|and to Whom?";
+toolClass[2] = "axe";
+harvestLevel[2] = 0;
+resistance[2] = 12.0;
+textureFileXP[2] = "leaves_dead_opaque.png";
+textureFileXN[2] = "leaves_dead_opaque.png";
+textureFileYP[2] = "leaves_dead_opaque.png";
+textureFileYN[2] = "leaves_dead_opaque.png";
+textureFileZP[2] = "leaves_dead_opaque.png";
+textureFileZN[2] = "leaves_dead_opaque.png";

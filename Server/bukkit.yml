@@ -1,0 +1,75 @@
+# This is the main configuration file for Bukkit.
+# As you can see, there's actually not that much to configure without any plugins.
+# For a reference for any variable inside this file, check out the Bukkit Wiki at
+# http://wiki.bukkit.org/Bukkit.yml
+# 
+# If you need help on this file, feel free to join us on irc or leave a message
+# on the forums asking for advice.
+# 
+# IRC: #bukkit @ esper.net
+#    (If this means nothing to you, just go to http://webchat.esper.net/?channels=bukkit )
+# Forums: http://forums.bukkit.org/forums/bukkit-help.6/
+# Twitter: http://twitter.com/CraftBukkit
+# Bug tracker: http://leaky.bukkit.org/
+
+
+settings:
+  allow-end: false
+  warn-on-overload: true
+  permissions-file: permissions.yml
+  update-folder: update
+  ping-packet-limit: 100
+  use-exact-login-location: false
+  plugin-profiling: false
+  connection-throttle: 4000
+  query-plugins: true
+  deprecated-verbose: default
+  shutdown-message: Server closed
+spawn-limits:
+  monsters: 30
+  animals: 10
+  water-animals: 4
+  ambient: 9
+chunk-gc:
+  enabled: true
+  period-in-ticks: 600
+  load-threshold: 0
+ticks-per:
+  animal-spawns: 900
+  monster-spawns: 55
+  autosave: 13000
+auto-updater:
+  enabled: false
+  on-broken:
+  - warn-console
+  - warn-ops
+  on-update:
+  - warn-console
+  - warn-ops
+  preferred-channel: rb
+  host: dl.bukkit.org
+  suggest-channels: true
+aliases: now-in-commands.yml
+database:
+  username: bukkit
+  isolation: SERIALIZABLE
+  driver: org.sqlite.JDBC
+  password: walrus
+  url: jdbc:sqlite:{DIR}{NAME}.db
+world-settings:
+  dreamworld:
+    enabled: false
+  torment:
+    enabled: false
+  bedrock:
+    enabled: false
+  underdark:
+    enabled: false
+  the_end:
+    enabled: false
+  nether:
+    enabled: false
+  machines:
+    enabled: true
+  wyvernend:
+    enabled: true

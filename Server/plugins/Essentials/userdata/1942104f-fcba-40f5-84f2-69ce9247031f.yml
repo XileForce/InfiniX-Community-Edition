@@ -1,0 +1,33 @@
+timestamps:
+  login: 1409371301725
+  lastteleport: 1409373870798
+  kits:
+    color: 1407718244459
+    notch: 1407718216541
+    tools: 1408060055357
+  logout: 1409279385095
+ipAddress: 68.39.90.68
+lastlocation:
+  world: world
+  x: -4076.383288263849
+  y: 66.0
+  z: 2555.1974925487425
+  yaw: 278.84927
+  pitch: 36.963337
+logoutlocation:
+  world: world
+  x: -4292.716701496471
+  y: 87.94173603556966
+  z: 2784.174432955729
+  yaw: 119.805504
+  pitch: 26.099932
+money: '18.0'
+homes:
+  home:
+    world: world
+    x: -4322.968427740354
+    y: 78.0
+    z: 2737.1706780448303
+    yaw: 236.20555
+    pitch: 16.949917
+lastAccountName: epic_win145

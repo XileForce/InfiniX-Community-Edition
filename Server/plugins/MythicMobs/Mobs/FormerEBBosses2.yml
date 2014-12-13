@@ -1,0 +1,45 @@
+Cashcow:
+  Mobtype: mushroomcow
+  Display: '&e&lCash Cow'
+  Health: 300
+  Damage: 0.1
+  Drops:
+  - phatloot Cashcow 1
+  Skills:
+  - skill cashcow >0 1
+  Options:
+    MovementSpeed: 2.0
+    KnockbackResistance: 1.0
+Priest:
+  Mobtype: villager
+  Display: '&cPriest of Banjo'
+  Health: 1000
+  Damage: 1
+  Drops:
+  - phatloot Priest 1
+  Skills:
+  - shootskull 15 >0 0.3
+  - lightning 50:5 >0 0.5
+  - consume 30:30:12:10 PLAYER >0 1
+JFK:
+  Mobtype: wither
+  Display: '&7&lBANJOMARX the TROLLZOR'
+  Health: 100000
+  Damage: 300
+  Drops:
+  - phatloot JFK 1
+  Skills:
+  - skill trollA >0 1
+  - msg 500:'$boss;CURSES $target YOU WIN THIS TIME!' ~onDeath 1
+  Options:
+    MovementSpeed: 0.5
+Bajan:
+  Mobtype: pig
+  Display: BajanAmercian
+  Health: 2
+  Damage: 0
+  Drops:
+  - phatloot Bajan 1
+  Options:
+    KnockbackResistance: 0.7
+    MovementSpeed: -0.7

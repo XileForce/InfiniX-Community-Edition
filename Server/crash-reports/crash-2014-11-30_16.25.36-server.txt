@@ -1,0 +1,33 @@
+---- Minecraft Crash Report ----
+// I'm sorry, Dave.
+
+Time: 11/30/14 4:25 PM
+Description: Exception in server tick loop
+
+cpw.mods.fml.common.MissingModsException
+	at cpw.mods.fml.common.Loader.sortModList(Loader.java:227)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:472)
+	at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:87)
+	at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:319)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:170)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:620)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 8 (amd64) version 6.2
+	Java Version: 1.8.0_11, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 88898864 bytes (84 MB) / 242618368 bytes (231 MB) up to 2112618496 bytes (2014 MB)
+	JVM Flags: 4 total; -XX:PermSize=128m -XX:MaxPermSize=256m -Xincgc -Xmx2G
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: ~~ERROR~~ NullPointerException: null
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'cauldron,craftbukkit,mcpc,fml,forge'
+	Type: Dedicated Server (map_server.txt)

@@ -1,0 +1,20 @@
+timestamps:
+  login: 1407595655781
+  logout: 1407595768163
+  lastteleport: 1407595726383
+ipAddress: 212.62.209.61
+lastlocation:
+  world: world
+  x: -41.237852623572444
+  y: 70.0
+  z: 24.64648043544396
+  yaw: -122.835045
+  pitch: 10.499997
+logoutlocation:
+  world: DIM_SPACESTATION2
+  x: 4.538873829245023
+  y: 64.0
+  z: 24.705625898322936
+  yaw: 4.0654263
+  pitch: 19.200005
+lastAccountName: general_voc

@@ -1,0 +1,49 @@
+LordofTaint:
+  Cooldown: 15
+  Conditions:
+  - playerwithin 150
+  Skills:
+  - message 400:'$boss; &4The Pain...oh god the PAIN' >0 1
+  - lightning 100:5 >0 1
+  - delay 10
+  - lightning 100:1 >0 1
+  - delay 10
+  - lightning 100:1 >0 1
+  - message 400:'$boss; &4get out...GET OUT OF MY HEAD!!' >0 1
+  - delay 10
+  - lightning 100:1 >0 1
+  - delay 10
+  - lightning 100:1 >0 1
+  - delay 10
+  - message 400:'$boss; &4AAAAAAAAAAAAAAAAAAAAGH!' >0 1
+  - delay 10
+  - rally 1000:500 madscience-gmoAbomination >0 1
+  - summon madscience-gmoAbomination:2:2 >0 1
+  - summon Thaumcraft-Wisp:2:2 >0 0.5
+  - delay 5
+  - rally 1000:500 madscience-gmoAbomination >0 1
+  - rally 1000:500 Thaumcraft-Wisp >0 1
+Glory:
+  Cooldown: 5
+  Skills:
+  - message 200:'$boss; &4SO MUCH POWER!' >0 1
+  - lightning 100:5 >0 1
+  - healself 2 >0 1
+  - delay 10
+  - lightning 100:1 >0 1
+  - healself 2 >0 1
+  - delay 10
+  - lightning 100:1 >0 1
+  - healself 2 >0 1
+  - message 200:'$boss; &4the pain....its FADING!!' >0 1
+  - delay 10
+  - lightning 100:1 >0 1
+  - healself 2 >0 1
+  - delay 10
+  - lightning 100:1 >0 1
+  - healself 2 >0 1
+  - delay 10
+  - message 200:'$boss; &4if i kill you all....i can REST ONCE MORE NO MORE PAIN!!' >0 1
+  - newtarget 200 >0 1
+  - delay 5
+  - rally 1000:500 madscience-gmoAbomination >0 1

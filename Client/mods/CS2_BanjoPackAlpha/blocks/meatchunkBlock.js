@@ -1,0 +1,20 @@
+name = "meatchunkBlock";
+material = "rock";
+stepSound = "grass";
+creativeTab = "buildingBlocks";
+
+addToCreative[0] = true;
+canSilkHarvest[0] = false;
+fortuneModifier[0] = 1;
+hardness[0] = 15.0;
+information[0] = "A Shiver Goes Down Your Spine...|Revulsion? or...|Something Else?";
+toolClass[0] = "pickaxe";
+harvestLevel[0] = 1;
+resistance[0] = 12.0;
+drop[0] = "minecraft:porkchop 4";
+textureFileXP[0] = "ChunkofMeat.png";
+textureFileXN[0] = "ChunkofMeat.png";
+textureFileYP[0] = "ChunkofMeat.png";
+textureFileYN[0] = "ChunkofMeat.png";
+textureFileZP[0] = "ChunkofMeat.png";
+textureFileZN[0] = "ChunkofMeat.png";

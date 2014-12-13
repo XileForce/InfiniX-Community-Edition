@@ -1,0 +1,126 @@
+Scrublord:
+  Mobtype: creeper
+  Display: '&4Scrublord'
+  Health: 50000
+  Damage: 9003
+  Skills:
+  - message 100:'$boss; &4HELL IS COMING I AM ITS HARBRINGER!' >0 0.05
+  - skill YouDare >0 1
+  - skill YouDare2 >0 1
+  - skill Destroy ~onExplode 1
+  - skill Retort ~onDamaged 1
+  - msg 500:'CURSES $target YOU WIN THIS TIME!' ~onDeath 1
+  Options:
+    AlwaysShowName: false
+    MovementSpeed: 0.3
+    MaxCombatDistance: 3
+    PreventOtherDrops: true
+    FuseTicks: 200
+    KnockbackResistance: .7
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventSuicide: true
+    ShowHealth: true
+    FollowRange: 100
+    ExplosionRadius: 80
+  DamageModifiers:
+    - LIGHTNING 0
+    - BLOCK_EXPLOSION 0
+    - ENTITY_EXPLOSION 0
+    - VOID 0
+    - POISON 0
+    - MAGIC 0
+    - WITHER 0
+    - FALLING_BLOCK 1
+    - THORNS 2
+    - CUSTOM 0
+    - MELTING 0
+    - FIRE_TICK 0
+    - FIRE 0
+    - SUFFOCATION 0
+    - PROJECTILE 0
+    - ENTITY_ATTACK 1
+    - FALL 0
+PTSchind:
+  Mobtype: madscience-gmoShoggoth
+  Display: '&4Tainted Schindler Shadow'
+  Health: 300
+  Damage: 9003
+  Skills:
+  - message 100:'$boss; &4The Hunger...IT BURNS!' >0 0.01
+  - rally 1000:500 madscience-gmoAbomination >0 0.1
+  - skill YouDare >0 1
+  - skill YouDare2 >0 1
+  - skill LordofTaint ~onTimer:600 1
+  - skill Glory ~onPlayerKill 1
+  - msg 500:'$boss;CURSES $target YOU WIN THIS TIME!' ~onDeath 1
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    MaxCombatDistance: 5
+    PreventOtherDrops: true
+    KnockbackResistance: .9
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventSuicide: true
+    ShowHealth: true
+    FollowRange: 200
+  DamageModifiers:
+    - LIGHTNING 0.001
+    - BLOCK_EXPLOSION 0
+    - ENTITY_EXPLOSION 0
+    - VOID 0
+    - POISON 0
+    - MAGIC 0.01
+    - WITHER 0
+    - FALLING_BLOCK 0.01
+    - THORNS 0
+    - CUSTOM 0.001
+    - MELTING 0
+    - FIRE_TICK 0
+    - FIRE 0
+    - SUFFOCATION 0
+    - PROJECTILE 0.0001
+    - ENTITY_ATTACK 0.0001
+    - CONTACT 0
+ScrublordN:
+  Mobtype: creeper
+  Display: '&4Scrublord'
+  Health: 5000
+  Damage: 9003
+  Skills:
+  - message 100:'$boss; &4HELL IS COMING I AM ITS HARBRINGER!' >0 0.05
+  - skill DestroyN ~onExplode 1
+  - skill Retort ~onDamaged 1
+  - msg 500:'CURSES $target YOU WIN THIS TIME!' ~onDeath 1
+  Options:
+    AlwaysShowName: false
+    MovementSpeed: 0.3
+    MaxCombatDistance: 6
+    PreventOtherDrops: true
+    FuseTicks: 200
+    KnockbackResistance: .7
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventSuicide: true
+    ShowHealth: true
+    FollowRange: 100
+    ExplosionRadius: 25
+  DamageModifiers:
+    - LIGHTNING 0.1
+    - BLOCK_EXPLOSION 0.1
+    - ENTITY_EXPLOSION 0.1
+    - VOID 0
+    - POISON 0.05
+    - MAGIC 0.1
+    - WITHER 0.05
+    - FALLING_BLOCK 2
+    - THORNS 3
+    - CUSTOM 0.1
+    - MELTING 0.1
+    - FIRE_TICK 0.1
+    - FIRE 0.1
+    - SUFFOCATION 0.1
+    - PROJECTILE 0.1
+    - ENTITY_ATTACK 1
+    - FALL 0.1

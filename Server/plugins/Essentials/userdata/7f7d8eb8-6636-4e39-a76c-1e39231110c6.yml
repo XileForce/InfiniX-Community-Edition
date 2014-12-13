@@ -1,0 +1,32 @@
+timestamps:
+  login: 1410740068552
+  logout: 1410740155497
+  kits:
+    tools: 1410554508123
+  lastteleport: 1410556373035
+ipAddress: 70.44.220.103
+lastlocation:
+  world: world
+  x: 354.19845975273137
+  y: 204.0
+  z: 1567.4425938414233
+  yaw: -257.3831
+  pitch: 12.60005
+logoutlocation:
+  world: world
+  x: 341.0738516720507
+  y: 162.0
+  z: 1566.0831117652463
+  yaw: 19.367393
+  pitch: 23.849998
+homes:
+  home:
+    world: world
+    x: 352.1105997027047
+    y: 31.0
+    z: 1562.3537199078871
+    yaw: 142.36697
+    pitch: 40.5
+money: '260'
+afk: false
+lastAccountName: rambo262

@@ -1,0 +1,22 @@
+spawns: 
+  default: 
+    world: DIM_SPACESTATION2
+    x: 0.5124241356970742
+    y: 63.93894324480458
+    z: -18.977380694533164
+    yaw: -0.7346821
+    pitch: 1.9500674
+  "zeratul auditore": 
+    world: world
+    x: -10499.417314485638
+    y: 28.0
+    z: -9807.557705786467
+    yaw: -271.56503
+    pitch: -1.1998373
+  zeratul_auditore: 
+    world: world
+    x: 212.63702212590272
+    y: 70.0
+    z: 668.5532620315284
+    yaw: 196.92543
+    pitch: 27.00002

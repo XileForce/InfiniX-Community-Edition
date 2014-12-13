@@ -1,0 +1,715 @@
+groups:
+  default:
+    default: false
+    permissions:
+    - lwc.protect
+    - globalmarket.quicklist
+    - globalmarket.quickmail
+    - globalmarket.create
+    - globalmarket.util
+    - globalmarket.history
+    - globalmarket.pricecheck
+    - globalmarket.send
+    - herobounty.new
+    - herobounty.accept
+    - signs.use.trade
+    - herobounty.list
+    - ItemRestrict.bypass.ownership.2510-2
+    - sg.arena.join.*
+    - sg.lobby.join
+    - sg.arena.vote
+    - sg.arena.spectate
+    - essentials.ignore
+    - essentials.baltop
+    - essentials.signs.create.trade
+    - essentials.signs.use.trade
+    - autocraft.transport
+    - playerheads.canbehead
+    - playerheads.canloosehead
+    - playerheads.canbeheadmob
+    - hyperconomy.use
+    - herochat.join.*
+    - herochat.speak.*
+    - herochat.pm
+    - herochat.leave.*
+    - auction.info
+    - mcmmo.default
+    - FC_Bounties.command.create
+    - FC_Bounties.command.list
+    - airportal.use
+    - bukkit.command.help
+    - heroes.classes.*
+    - heroes.bind
+    - signs.create.trade
+    - signs.break.trade
+    - auction.bid
+    - essentials.tpa
+    - essentials.tpaccept
+    - auction.start
+    - dynamiceconomy.customer
+    - dynamiceconomy.sell
+    - dynamiceconomy.buy
+    - essentials.suicide
+    - simplespleef.join
+    - simplespleef.leave
+    - simplespleef.start
+    - iconomy.holdings
+    - signs.use.balance
+    - thieves.steal
+    - signs.use.buy
+    - signs.use.disposal
+    - signs.use.free
+    - deathcube.use
+    - deathcube.use
+    - signs.use.heal
+    - signs.use.mail
+    - signs.use.protection
+    - signs.use.sell
+    - signs.use.time
+    - essentials.signs.use.trade
+    - signs.use.warp
+    - signs.use.weather
+    - essentials.balance
+    - chestshop.shop.create
+    - guns.use
+    - modifyworld.*
+    - essentials.spawn
+    - phatloots.use
+    - PhatLoots.use
+    - scs.use
+    - mbr.user.*
+    - essentials.warp
+    - essentials.msg
+    - factions.join
+    options:
+      rank: '1000'
+  Member+:
+    prefix: '&0(&c&5Member&a&0)&7'
+    options:
+      rank: '870'
+    inheritance:
+    - Member
+    default: true
+    permissions:
+    - mobarena.classes.Templar
+    - mobarena.classes.Cyborg
+    - essentials.signs.use.enchant
+    - essentials.tpaccept
+    - essentials.sethome
+    - essentials.home
+    - essentials.delhome
+    - simpleclans.anyone.*
+    - simpleclans.member.*
+    - simpleclans.leader.*
+    - simpleclans.mod.keep-items
+    - preciousstones.benifit.*
+    - preciousstones.whitelist.*
+    - essentials.kit.books
+    - essentials.kit.starter
+    - essentials.kits.book
+    - essentials.kit.book
+    - essentials.kits.color
+    - essentials.kits.notch
+    - essentials.kit
+    - essentials.kits.Tools
+    - essentials.chat.color
+    - autocraft.*
+    - heroes.classes.*
+    - mcmmo.perks.activationtime.fourseconds
+    - mcmmo.perks.cooldowns.quartered
+  Member:
+    prefix: '&0(&c&5Member&0)&7'
+    options:
+      rank: '900'
+    inheritance:
+    - default
+    permissions:
+    - essentials.rule
+    - essentials.rules
+    - -essentials.rule
+    - -essentials.rules
+    - essentials.signs.buy.use
+    - essentials.signs.sell.use
+    - multiverse.teleport.self.*
+    - multiverse.core.spawn.self
+    - multiverse.core.list
+    - multiverse.access.*
+    - multiverse.core.tp.self
+    - multiverse.core.spawn
+    - multiverse.access.Skyrim
+    - multiverse.access.Zombie
+    - towny.wild.*
+    - towny.town.*
+    - craftbook.ic.*
+    - craftbook.mech.*
+    - essentials.pay
+    - heroes.classes.*
+    - essentials.list
+    - essentials.online
+    - auction.bid
+    - essentials.warp.*
+    - sg.arena.spectate
+    - sg.arena.vote
+    - sg.lobby.join
+    - sg.arena.join
+    - pvparena.user
+    - jobsuite.description
+    - hungergame.user.*
+    - jobsuite.make
+    - jobsuite.reward
+    - jobsuite.additem
+    - jobsuite.remitem
+    - jobsuite.addenchant
+    - jobsuite.post
+    - jobsuite.quit
+    - jobsuite.cancel
+    - jobsuite.list
+    - jobsuite.info
+    - ultimatearena.player
+    - essentials.help
+    - Deathcube.use
+    - essentials.afk
+    - chestshop.shop.buy
+    - experiencebank.*
+    - chestshop.shop.sell
+    - simpleclans.member.*
+    - essentials.m
+    - essentials.msg
+    - preciousstones.benefit.*
+    - preciousstones.benefit.launch
+    - factions.kit.fullplayer
+  Spectre:
+    options:
+      rank: '800'
+    prefix: '&0(&2Spectre&0)&7'
+    inheritance:
+    - Member+
+    permissions:
+    - ItemRestrict.bypass.ownership.243
+    - phatloots.loot.DonorDaily
+    - phatloots.loot.DonorWeekly
+    - ItemRestrict.bypass.ownership.1030
+    - ItemRestrict.bypass.ownership.6294
+    - ItemRestrict.bypass.ownership.11456-0
+    - ItemRestrict.bypass.ownership.11456-1
+    - ItemRestrict.bypass.ownership.11456-2
+    - ItemRestrict.bypass.ownership.11456-3
+    - ItemRestrict.bypass.usage.6294
+    - ItemRestrict.bypass.ownership.2507-1
+    - ItemRestrict.bypass.usage.2507-1
+    - ItemRestrict.bypass.ownership.4034-7
+    - ItemRestrict.bypass.ownership.4031-0
+    - ItemRestrict.bypass.ownership.31970
+    - essentials.joinfullserver
+    - factions.claim
+    - essentials.hat
+    - mcmmo.perks.xp.50percentboost
+    - essentials.tpaccept
+    - backpack.use
+    - backpack.upgrade
+    - backpack.size.18
+    - dynamiceconomy.buy
+    - mobarena.classes.*
+    - thieves.protected
+    - portables.enchant.cost
+    - portables.enchant.use
+    - portables.workbench.use
+    - simpleclans.leader.*
+    - auction.start
+    - mbr.user.*
+    - ChestShop.shop.*
+    - skyrimrpg.nopickpocket
+    - essentials.spawn
+    - VIPJoin.thunder
+    - VIP.VIP
+    - essentials.home
+    - essentials.delhome
+    - essentials.sethome.multiple.vip
+  Commando:
+    options:
+      rank: '850'
+    prefix: '&6(&2Commando&6)&7'
+    inheritance:
+    - Spectre
+    permissions:
+    - phatloots.loot.DonorMonthly
+    - essentials.teleport.cooldown.bypass
+    - ItemRestrict.bypass.ownership.8963
+    - ItemRestrict.bypass.ownership.8960
+    - ItemRestrict.bypass.ownership.8956
+    - ItemRestrict.bypass.ownership.8957
+    - ItemRestrict.bypass.ownership.1585
+    - ItemRestrict.bypass.ownership.1575
+    - ItemRestrict.bypass.ownership.1576
+    - ItemRestrict.bypass.ownership.1586
+    - ItemRestrict.bypass.ownership.1584
+    - ItemRestrict.bypass.ownership.1577
+    - ItemRestrict.bypass.ownership.1578
+    - ItemRestrict.bypass.ownership.1579
+    - ItemRestrict.bypass.ownership.1580
+    - ItemRestrict.bypass.ownership.1581
+    - ItemRestrict.bypass.ownership.1582
+    - ItemRestrict.bypass.ownership.1583
+    - ItemRestrict.bypass.ownership.2029
+    - ItemRestrict.bypass.ownership.1503
+    - ItemRestrict.bypass.usage.1503
+    - ItemRestrict.bypass.ownership.1341
+    - ItemRestrict.bypass.ownership.1123
+    - ItemRestrict.bypass.ownership.1970
+    - ItemRestrict.bypass.ownership.31952
+    - essentials.sethome.multiple.staff
+    - backpack.size.27
+    - herobounty.untargettable
+    - cannons.player.load
+    - cannons.player.adjust
+    - cannons.player.fire
+    - cannons.player.placeRedstoneTorch
+    - ecb.place
+    - ecb.use
+    - mcmmo.perks.xp.double
+    - mcmmo.perks.cooldowns.thirded
+  Moderator:
+    options:
+      rank: '200'
+    prefix: '&0(&1Mod&0)&7'
+    inheritance:
+    - Member+
+    permissions:
+    - essentials.tpahere
+    - essentials.tpa
+    - essentials.kits.book
+    - hawkeye.info
+    - OpenInv.openinv
+    - OpenInv.anychest
+    - OpenInv.crossworld
+    - OpenInv.openender
+    - OpenInv.openself
+    - essentials.hat
+    - lwc.mod
+    - essentials.chat.ignoreexempt
+    - towny.command.town.here
+    - hawkeye.search.*
+    - bukkit.command.tps
+    - tpp.request
+    - hawkeye.page
+    - hawkeye.search
+    - hawkeye.tool
+    - permissions.manage.membership.member
+    - essentials.togglejail
+    - simpleclans.mod.*
+    - mcbans.kick
+    - deathcube.mod
+    - essentials.mute
+    - essentials.spawn
+    - SimpleJail.jail
+    - SimpleJail.unjail
+    - essentials.kick
+    - essentials.sun
+    - booscooldowns.exception
+    - xcheck.check
+    - preciousstones.limit1
+    - tgm.self
+    - tpp.others.*
+    - logblock.tools.toolblock
+    - essentials.tpaccept
+    - essentials.weather
+  Detective:
+    options:
+      rank: '80013'
+    prefix: '&0(&dDetective&0)&7'
+    inheritance:
+    - Member+
+    - Moderator
+    - Spectre
+    permissions:
+    - essentials.ban
+    - essentials.teleport.cooldown.bypass
+    - essentials.teleport.timer.bypass
+    - essentials.teleport.move.bypass
+    - essentials.unban
+  SpectreMod:
+    options:
+      rank: '80012'
+    prefix: '&0(&2Spectre&1Mod&0)&7'
+    inheritance:
+    - Spectre
+    - Moderator
+  CommandoMod:
+    options:
+      rank: '0'
+    prefix: '&0(&2Comm&1Mod&0)&7'
+    inheritance:
+    - Commando
+    - Moderator
+  SuperMod:
+    options:
+      rank: '100'
+    prefix: '&0(&bSuperMod&0)&7'
+    inheritance:
+    - Moderator
+    - Commando
+    permissions:
+    - essentials.nick
+    - essentials.back
+    - essentials.nick.others
+    - essentials.nick.color
+    - hawkeye.tpto
+    - lwc.admin.remove
+    - essentials.tempban
+    - essentials.ban
+    - essentials.unban
+    - essentials.fly
+    - essentials.god
+  oldSuperMod:
+    options:
+      rank: '100'
+    prefix: '&0(&bikdSuperMod&0)&7'
+    inheritance:
+    - Moderator
+    permissions:
+    - mobarena.setup
+    - dynamiceconomy.*
+    - essentials.nick
+    - essentials.time
+    - essentials.tp
+    - essentials.setwarp
+    - essentials.back
+    - essentials.msg
+    - anticheat.check.exempt
+    - pvparena.admin
+    - hungergame.admin.*
+    - limitedcreative.regions.bypass
+    - limitedcreative.switch_gamemode.creative
+    - limitedcreative.switch_gamemode.survival
+    - essentials.kick
+    - worldedit.*
+    - mobdisguise.*
+    - essentials.tempban
+    - essentials.ban
+    - essentials.unban
+    - essentials.warp
+    - thieves.protected
+    - essentials.ignore
+    - ultimatearena.admin
+    - permissions.manage.membership.member
+    - essentials.gamemode
+    - essentials.tphere
+  UberMod:
+    options:
+      rank: '50'
+    prefix: '&0(&6UberMod&0)&7'
+    inheritance:
+    - SuperMod
+    permissions:
+    - ecb.place
+    - ecb.use
+    - vanish.standard
+    - coreprotect.*
+    - limitedcreative.nolimit.*
+  Admin:
+    prefix: '&0(&6Admin&0)&7'
+    permissions:
+    - hawkeye.rebuild
+    - hawkeye.rollback
+    - hawkeye.preview
+    - factions.adminmode
+    - OpenInv.override
+    - OpenInv.silent
+    - OpenInv.search
+    - OpenInv.editender
+    - OpenInv.editinv
+    - '*'
+    - essentials.*
+    options:
+      rank: '0'
+  ModpackCreator:
+    prefix: '&0(&cModPack Creator&0)&7'
+    permissions:
+    - '*'
+    - essentials.*
+    options:
+      rank: '0'
+  Technician:
+    prefix: '&0(&4Technician&0)&7'
+    permissions:
+    - dynmap.playermarkers.seeall
+    - '*'
+    options:
+      rank: '0'
+  TiT:
+    prefix: '&0(&4TiT&0)&7'
+    permissions:
+    - -essentials.gamemode
+    - -essentials.gm
+    - '*'
+    options:
+      rank: '0'
+  Builder:
+    prefix: '&0(&4Builder&0)&7'
+    inheritance:
+    - Member+
+    permissions:
+    - essentials.gm
+users:
+  xileforce:
+    group:
+    - ModpackCreator
+    worlds:
+      creator:
+        group:
+        - ModpackCreator
+  Zeratul_Auditore:
+    group:
+    - Member+
+  SirRob:
+    group:
+    - UberMod
+  ldjcool:
+    group:
+    - SuperMod
+  killcat21:
+    group:
+    - Member
+  Daywalker1234567:
+    group:
+    - Member+
+  RAGER_101:
+    group:
+    - Moderator
+  Lordsparkles:
+    group:
+    - Member+
+  GMPrefect:
+    group:
+    - UberMod
+  thedesertfox101:
+    group:
+    - Member+
+  Jonny3456:
+    group:
+    - CommandoMod
+  Lithorn:
+    group:
+    - Detective
+    options:
+      group: Mod
+  PackOfStyle:
+    group:
+    - Moderator
+  ZeratulAuditore:
+    options:
+      group: technician
+    group:
+    - Technician
+  xileeforce:
+    group:
+    - Commando
+  gmrefect:
+    group:
+    - Member
+  DmndZombieSlayer:
+    group:
+    - Member
+  SlimePuppy:
+    group:
+    - Member+
+  EnergySword567:
+    group:
+    - Member+
+  da_destroyer_:
+    group:
+    - Member+
+  Kaosi:
+    group:
+    - Admin
+  SchindlerShadow:
+    group:
+    - Technician
+  the_player712:
+    group:
+    - Member+
+  dessertcamel:
+    group:
+    - Member+
+  seekerofshadows:
+    group:
+    - Member+
+  Cowmantis:
+    group:
+    - Member+
+  BlazeDozer:
+    group:
+    - Member+
+  Getoffmycat:
+    group:
+    - Member+
+  calvin1021:
+    group:
+    - Member+
+  USMC_Gyrene:
+    group:
+    - Member+
+  RoselinaFey:
+    group:
+    - Moderator
+  boldDigger:
+    group:
+    - Member+
+  james9876249:
+    group:
+    - Member+
+  midwest_elite:
+    group:
+    - Member+
+  louiskw:
+    group:
+    - Member
+  XHakuX:
+    group:
+    - Member+
+  nemvar:
+    group:
+    - Member+
+  Zymm78:
+    group:
+    - Member+
+  DevilDogMaster:
+    group:
+    - Admin
+    options:
+      group: Admin
+  xDarkHawksx30:
+    group:
+    - Member+
+  TruNewb:
+    group:
+    - Member+
+  x_Claire_x:
+    group:
+    - Moderator
+  TheBoganator:
+    group:
+    - Member+
+  rukia457:
+    group:
+    - Member+
+  connor_man_99:
+    group:
+    - Member+
+  Chronosapien:
+    group:
+    - Spectre
+  reginagomes:
+    group:
+    - Member+
+  ronin1699:
+    group:
+    - Commando
+  xilefroce:
+    group:
+    - ModpackCreator
+  killersharpshot:
+    group:
+    - Member+
+  Justicevalla:
+    group:
+    - Member+
+  d3monation:
+    group:
+    - Member+
+  TerdyTheTerd:
+    group:
+    - Commando
+  pedrogracia:
+    group:
+    - Member+
+  Xhail123:
+    group:
+    - Moderator
+  EmpressMaow:
+    group:
+    - Moderator
+  GoldenOneTx:
+    group:
+    - Member+
+  Mudhouse:
+    group:
+    - Member+
+  stuckfly:
+    group:
+    - Member+
+  Judomuerte:
+    group:
+    - Member+
+  Tombs78:
+    group:
+    - Member+
+  Legoarmymen:
+    group:
+    - Member+
+  Dragonsku1:
+    group:
+    - Member+
+  ChaoticCroc:
+    group:
+    - Member+
+  minr72:
+    group:
+    - Member+
+  Xclairex:
+    group:
+    - Moderator
+  siegelpeapod2:
+    group:
+    - Commando
+  Banjomarx:
+    group:
+    - Admin
+  robochicken11:
+    group:
+    - Spectre
+  EPILP:
+    group:
+    - Commando
+  redandrew9:
+    group:
+    - Commando
+  Beatnes:
+    group:
+    - Member+
+  TNT3530:
+    group:
+    - Member+
+  Musicology:
+    group:
+    - Moderator
+  santhejew:
+    group:
+    - Member+
+  WikidSick:
+    group:
+    - Spectre
+  Runis707:
+    group:
+    - Member+
+  AkanRyan:
+    group:
+    - Moderator
+  XanthusMaximus:
+    group:
+    - Member+
+  atdtdog42399:
+    group:
+    - Commando
+  Nimbus2011:
+    group:
+    - Commando
+  thegamer4789:
+    group:
+    - Spectre
+  pianoman349:
+    group:
+    - Commando
+  sirknight94:
+    group:
+    - Commando

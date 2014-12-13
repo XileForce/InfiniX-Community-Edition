@@ -1,0 +1,1294 @@
+DarkSummoning:
+  Cooldown: 10
+  Skills:
+  - msg 50:'&4THE DARKNESS GROWS!' >0 1
+  - delay 60
+  - summon $testboss2:4:2 >0 1
+  - damage 5:5:true >0 1
+RagnarokS:
+  Cooldown: 3
+  Skills:
+  - damage 0:3:true >0 1
+  - shootfireball 150:true:1000 >0 0.01
+  - summon $testboss2X:10:100 >0 0.03
+Wrathofsky:
+  Cooldown: 180
+  Skills:
+  - msg 5000:'&l&cLEAVE NOW OR FACE MY WRATH MORTALS' >0 1
+  - lightning 5000:8 >0 1
+  - delay 400
+  - lightning 5000:8 >0 1
+  - delay 40
+  - lightning 5000:8 >0 1
+  - delay 40
+  - lightning 5000:8 >0 1
+  - delay 40
+  - lightning 5000:8 >0 1
+  - delay 40
+  - lightning 5000:8 >0 1
+  - delay 40
+  - lightning 5000:8 >0 1
+  - delay 40
+  - lightning 5000:8 >0 1
+  - delay 40
+  - lightning 5000:8 >0 1
+  - delay 40
+  - lightning 5000:8 >0 1
+  - delay 40
+  - lightning 5000:8 >0 1
+  - delay 40
+  - lightning 5000:8 >0 1
+  - delay 40
+  - lightning 5000:8 >0 1
+  - delay 40
+  - lightning 5000:8 >0 1
+  - delay 40
+  - lightning 5000:8 >0 1
+  - delay 40
+  - lightning 5000:8 >0 1
+  - delay 40
+  - lightning 5000:8 >0 1
+  - delay 40
+  - lightning 5000:8 >0 1
+  - delay 40
+  - msg 5000:'&l&0FEEL MY ANGER' >0 1
+  - delay 100
+  - lightning 5000:45 >0 1
+  - delay 20
+END:
+  Cooldown: 45
+  Skills:
+  - msg 300:'&l&cIF I DIE YOU ARE COMING WITH ME!!!' <1000 1
+  - delay 60
+  - shootskull 10 <1000 1
+  - delay 5
+  - shootskull 10 <1000 1
+  - delay 5
+  - shootskull 10 <1000 1
+  - delay 5
+  - shootskull 10 <1000 1
+  - delay 5
+  - shootskull 10 <1000 1
+  - delay 5
+  - shootskull 10 <1000 1
+  - delay 10
+  - shootfireball 50:false:0 <1000 1
+  - delay 5
+  - shootfireball 50:false:0 <1000 1
+  - delay 5
+  - shootfireball 50:false:0 <1000 1
+  - delay 5
+  - shootfireball 50:false:0 <1000 1
+  - delay 5
+  - shootfireball 50:false:0 <1000 1
+  - delay 100
+WrathofskyN:
+  Cooldown: 200
+  Skills:
+  - msg 0:'&l&cLEAVE NOW OR FACE MY WRATH MORTALS' >0 1
+  - lightning 50:5 >0 1
+  - delay 400
+  - lightning 50:5 >0 1
+  - delay 60
+  - lightning 50:5 >0 1
+  - delay 60
+  - lightning 50:5 >0 1
+  - delay 60
+  - lightning 50:5 >0 1
+  - delay 60
+  - lightning 50:5 >0 1
+  - delay 60
+  - lightning 50:5 >0 1
+  - delay 60
+  - lightning 50:5 >0 1
+  - delay 60
+  - lightning 50:5 >0 1
+  - delay 60
+  - lightning 50:5 >0 1
+  - delay 60
+  - lightning 50:5 >0 1
+  - delay 60
+  - lightning 50:5 >0 1
+  - delay 60
+  - lightning 50:5 >0 1
+  - delay 60
+  - lightning 50:5 >0 1
+  - delay 60
+  - lightning 50:5 >0 1
+  - delay 60
+  - lightning 50:5 >0 1
+  - delay 60
+  - lightning 50:5 >0 1
+  - delay 60
+  - lightning 50:5 >0 1
+  - delay 60
+  - msg 0:'&l&0FEEL MY ANGER' >0 1
+  - delay 100
+  - lightning 0:25 >0 1
+  - delay 20
+Ragnarok:
+  Cooldown: 3
+  Skills:
+  - damage 0:12:true >0 1
+  - potionself FIRE_RESISTANCE:500:10 >0 1
+  - summon $testboss2:10:20 >0 0.16
+  - summon $RagnarokSN:10:30 <30000 0.2
+  - summon $Moon:1:20 <30000 0.05
+  - projectile enderpearl:400:3 <1000 .4
+  - healself 1 >0 1
+  - pull 400:10 >0 0.05
+  - throw 1000:10:20 >0 0.05
+Ragnarok2:
+  Cooldown: 10
+  Skills:
+  - delay 10
+  - msg 200:'&l&0DIE FOOL' >0 1
+  - potionself DAMAGE_RESISTANCE:5:10 >0 1
+  - shootfireball 100:false:0 >0 1
+  - delay 10
+  - shootfireball 250:true:1000 >0 0.3
+SHREK:
+  Cooldown: 2400
+  Skills:
+  - msg 200:'&aSHREK IS MAD SALTY BRO!' >0 1
+  - delay 40
+  - potion 200:SLOW:50:2 >0 1
+  - potion 200:CONFUSION:50:2 >0 1
+  - potion 200:BLINDNESS:50:2 >0 1
+  - potion 200:HUNGER:50:2 >0 1
+  - potion 200:WEAKNESS:50:2 >0 1
+  - potion 200:WITHER:50:2 >0 1
+  - potion 200:POISON:50:2 >0 1
+  - consume 200:200:40:150 PLAYER >0 1
+  - consume 2000:2000:2000:4 testboss2 >0 1
+  - summon poweredcreeper:10:20 >0 1
+  - teleport >0 1
+DoomSK:
+  Cooldown: 60
+  Skills:
+  - msg 200:'&aRAGE MODE!' >0 1
+  - delay 40
+  - potion 200:SLOW:50:2 >0 1
+  - potion 200:CONFUSION:50:2 >0 1
+  - potion 200:BLINDNESS:50:2 >0 1
+  - potion 200:HUNGER:50:2 >0 1
+  - potion 200:WEAKNESS:50:2 >0 1
+  - potion 200:WITHER:50:2 >0 1
+  - potion 200:POISON:50:2 >0 1
+  - consume 200:200:40:150 PLAYER >0 1
+  - consume 2000:2000:2000:10 testboss2 >0 1
+  - summon poweredcreeper:20:40 >0 1
+  - teleport >0 1
+  - potionself JUMP:100:1 >0 1
+  - potionself ABSORPTION:100:1 >0 1
+  - potionself REGENERATION:1000:2 >0 1
+Grave:
+  Cooldown: 5
+  Skills:
+  - damage 70:10:true >0 1
+  - potionself DAMAGE_RESISTANCE:1000:3 >0 1
+  - potionself FIRE_RESISTANCE:1000:3 >0 1
+  - potionmobs 20:SPEED:20:4 skeleton,spider,ghast,zombie,witherskeleton,maggot,LichS,testboss2,testboss2X >0 1
+  - potionmobs 20:ABSORPTION:20:4 skeleton,ghast,spider,zombie,witherskeleton,maggot,LichS,testboss2,testboss2X >0 1
+  - potionmobs 20:DAMAGE_RESISTANCE:20:4 skeleton,ghast,spider,zombie,witherskeleton,maggot,LichS,testboss2,testboss2X >0 1
+  - potionmobs 20:INCREASE_DAMAGE:20:4 skeleton,spider,ghast,zombie,witherskeleton,maggot,LichS,testboss2,testboss2X >0 1
+  - potionmobs 20:INVISIBILITY:20:4 skeleton,spider,ghast,zombie,witherskeleton,maggot,LichS,testboss2,testboss2X >0 1
+  - summon skeleton:1:10 >0 1
+  - summon zombie:1:10 >0 1
+  - summon witherskeleton:1:10 >0 1
+  - damage 170:35:false >0 1
+  - potion 50:POISON:10:1 >0 0.5
+  - potion 50:WITHER:10:1 >0 0.5
+DarkHealing:
+  Cooldown: 90
+  Skills:
+  - msg 50:'&c&oFoolish $player as long as i have my minions I am Immortal!' >0 1
+  - delay 40
+  - delay 40
+  - msg 50:'&c&oLend me your strength my minions!' >0 1
+  - delay 40
+  - consume 100:20:0:5 skeleton,spider,ghast,zombie,witherskeleton,maggot,LichS,testboss2,testboss2X >0 1
+OpenGrave:
+  Cooldown: 240
+  Skills:
+  - potion 50:SLOW:6:10 >0 1
+  - potion 50:WEAKNESS:6:10 >0 1
+  - potion 50:HUNGER:60:10 >0 1
+  - msg 50:'&c&oCOME MY MINIONS POUR FORTH FROM BEYOND!' >0 1
+  - delay 40
+  - summon skeleton:5:10 >0 1
+  - summon zombie:5:10 >0 1
+  - summon witherskeleton:3:10 >0 1
+  - delay 20
+  - summon $maggot:10:5 >0 1
+  - summon $LichS:2:10 >0 1
+  - summon $testboss2X:4:10 >0 0.2
+  - summon $testboss2:1:10 >0 0.2
+  - summon ghast:1:10 >0 0.5
+  - summon ghast:1:10 >0 0.5
+  - msg 50:'&c&oFoolish $player you have given me too much time to recuperate! I will not die only be REBORN!' 10-1 1
+  - summon $Lich:1:10 10-1 1
+Schind1:
+  Cooldown: 10
+  Skills:
+  - summon $Noob1:1:1 >0 0.4
+  - potionself DAMAGE_RESISTANCE:10:10 >0 0.05
+  - potionself INVISIBILITY:20:10 >0 0.1
+  - potionself ABSORPTION:20:5 >0 0.1
+  - damage 0:40:true >0 0.05
+Schind2:
+  Cooldown: 2
+  Skills:
+  - summon $Noob1:1:3 <100 0.5
+  - damage 100:10:true >0 0.2
+  - forcepull 0 >0 0.5
+  - projectile enderpearl:10:15 >0 1
+  - projectile enderpearl:10:15 >0 1
+  - projectile enderpearl:10:15 >0 1
+  - projectile enderpearl:10:15 >0 1
+  - projectile enderpearl:10:15 >0 1
+  - projectile enderpearl:10:15 >0 1
+  - delay 10
+  - projectile enderpearl:10:15 >0 1
+  - projectile enderpearl:10:15 >0 1
+  - projectile enderpearl:10:15 >0 1
+  - projectile enderpearl:10:15 >0 1
+  - projectile enderpearl:10:15 >0 1
+  - projectile enderpearl:10:15 >0 1
+  - projectile enderpearl:10:15 >0 1
+  - projectile enderpearl:10:15 >0 1
+MusicRage:
+  Cooldown: 200
+  Skills:
+  - msg 150:'&c&o*Music Grunts Angrily' >0 1
+  - delay 100
+  - lightning 20:25 >0 1
+  - delay 5
+  - consume 10:30:12:10 PLAYER >0 1
+  - throw 5:200:100 >0 1
+  - projectile enderpearl:50:15 >0 1
+  - projectile enderpearl:50:15 >0 1
+  - projectile enderpearl:50:15 >0 1
+  - projectile enderpearl:50:15 >0 1
+  - projectile enderpearl:50:15 >0 1
+  - projectile enderpearl:50:15 >0 1
+  - projectile enderpearl:50:15 >0 1
+  - projectile enderpearl:50:15 >0 1
+  - projectile enderpearl:50:15 >0 1
+  - projectile enderpearl:50:15 >0 1
+  - delay 20
+  - shootskull 10 >0 1
+  - shootskull 10 >0 1
+  - shootskull 10 >0 1
+  - shootskull 10 >0 1
+  - shootskull 10 >0 1
+  - shootskull 10 >0 1
+  - delay 10
+  - msg 350:'&a&o*Music Grunts Contentedly' >0 1
+Music1:
+  Cooldown: 10
+  Skills:
+  - lightning 20:5 >0 1
+  - potionself DAMAGE_RESISTANCE:60:4 >0 1
+  - potionself FIRE_RESISTANCE:60:10 >0 1
+  - shootpotion WEAKNESS:20:10:25 >0 1
+Music2:
+  Cooldown: 60
+  Skills:
+  - potionself DAMAGE_RESISTANCE:6:10 >0 1
+  - shootfireball 64:true:1000 >0 1
+  - delay 10
+  - shootfireball 64:false:1000 >0 1
+  - delay 10
+  - shootfireball 64:true:1000 >0 1
+  - delay 10
+  - shootfireball 64:false:1000 >0 1
+  - delay 10
+  - lightning 40:17 >0 1
+  - lightning 40:17 >0 1
+  - lightning 40:17 >0 1
+  - lightning 40:17 >0 1
+RangeBurst:
+  Cooldown: 40
+  Skills:
+  - msg 200:'&cSMACKDOWN INCOMING!' >0 1
+  - delay 80
+  - teleport >0 1
+  - delay 30
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - delay 2
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - delay 2
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - delay 2
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - delay 2
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - delay 2
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - delay 2
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - delay 2
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - delay 2
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - delay 2
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - delay 2
+  - summon blaze:1:5 >0 1
+  - delay 3
+  - summon blaze:1:5 >0 1
+  - delay 3
+  - summon blaze:1:5 >0 1
+  - delay 3
+  - summon $Noob1:1:5 >0 0.5
+  - summon $Xhail:1:5 >0 0.5
+FireGod:
+  Cooldown: 80
+  Skills:
+  - potionself DAMAGE_RESISTANCE:12:10 >0 1
+  - shootskull 25 >0 1
+  - delay 1
+  - shootskull 25 >0 1
+  - delay 1
+  - shootskull 25 >0 1
+  - delay 1
+  - shootskull 25 >0 1
+  - delay 1
+  - shootskull 25 >0 1
+  - delay 1
+  - shootskull 25 >0 1
+  - delay 60
+  - shootfireball 80:true:20000 >0 1
+  - delay 5
+  - shootfireball 80:false:20000 >0 1
+  - delay 5
+  - shootfireball 80:true:20000 >0 1
+  - delay 5
+  - shootfireball 80:false:20000 >0 1
+  - delay 80
+  - summon blaze:5:5 >0 1
+  - delay 5
+  - potionmobs 20:INCREASE_DAMAGE:200:4 blaze >0 1
+  - potionmobs 20:SPEED:200:4 blaze >0 1
+  - potionmobs 20:DAMAGE_RESISTANCE:200:4 blaze >0 1
+  - potionmobs 20:HEALTH_BOOST:200:4 blaze >0 1
+  - potionmobs 20:ABSORPTION:200:4 blaze >0 1
+  - potionmobs 20:HEAL:200:4 blaze >0 1
+  - potionmobs 20:REGENERATION:200:4 blaze >0 1
+  - potionmobs 20:INVISIBILITY:200:4 blaze >0 1
+  - msg 200:'&cSMACKDOWN INCOMING!' >0 1
+  - delay 10
+  - teleport >0 1
+  - delay 30
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - delay 2
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - delay 2
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - delay 2
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - delay 2
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - delay 2
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - delay 2
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - delay 2
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - delay 2
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - delay 2
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - projectile snowball:30:1 >0 1
+  - projectile snowball:30:2 >0 1
+  - projectile snowball:30:3 >0 1
+  - projectile snowball:30:4 >0 1
+  - projectile snowball:30:5 >0 1
+  - projectile snowball:30:10 >0 1
+  - projectile snowball:30:15 >0 1
+  - projectile snowball:30:20 >0 1
+  - projectile snowball:30:25 >0 1
+  - projectile snowball:30:30 >0 1
+  - delay 2
+eventchest:
+  Cooldown: 10
+  Skills:
+  - msg 200:'&4WHO GRIEFED MY SPAWN!!!' >0 0.1
+  - msg 200:'&aWTF DONT MAKE ME BANHAMMER!' >0 0.1
+  - msg 200:'&eDUPERS MUST DIE!!' >0 0.1
+  - summon skeleton:1:10 >0 0.2
+  - summon zombie:3:10 >0 0.2
+  - summon ghast:2:15 >0 0.1
+  - summon skeleton:3:10 >0 0.2
+  - summon poweredcreeper:3:10 >0 0.05
+  - summon creeper:3:10 >0 0.2
+  - summon witherskeleton:3:10 >0 0.08
+  - summon $testboss2X:3:10 >0 0.02
+  - summon slime:1:10 >0 0.05
+  - delay 5
+  - potionmobs 100:INCREASE_DAMAGE:200:4 skeleton,zombie,ghast,poweredcreeper,creeper.witherskeleton,testboss2X,slime >0 1
+  - potionmobs 100:DAMAGE_RESISTANCE:200:2 skeleton,zombie,ghast,poweredcreeper,creeper.witherskeleton,testboss2X,slime >0 1
+  - potionmobs 100:SPEED:200:2 skeleton,zombie,ghast,poweredcreeper,creeper.witherskeleton,testboss2X,slime >0 1
+eventchest2:
+  Cooldown: 240
+  Skills:
+  - msg 200:'&l&eCHARGING MY ATTACK!!' >0 1
+  - potionself DAMAGE_RESISTANCE:40:5 >0 1
+  - potionself ABSORPTION:540:5 >0 1
+  - potionself FIRE_RESISTANCE:40:5 >0 1
+  - lightning 100:1 >0 1
+  - delay 60
+  - lightning 100:1 >0 1
+  - delay 50
+  - lightning 100:1 >0 1
+  - delay 40
+  - lightning 100:1 >0 1
+  - delay 30
+  - lightning 100:1 >0 1
+  - delay 20
+  - lightning 100:1 >0 1
+  - delay 10
+  - lightning 100:2 >0 1
+  - delay 10
+  - lightning 50:3 >0 1
+  - delay 10
+  - lightning 25:5 >0 1
+  - lightning 25:8 >0 1
+  - potionself ABSORPTION:540:5 >0 1
+  - potionself FIRE_RESISTANCE:600:5 >0 1
+  - msg 200:'&l&eIm a firing ma BLAAAAAAAH!!' >0 1
+  - delay 5
+  - damage 50:100:true >0 1
+  - delay 80
+  - damage 75:220:false >0 1
+  - msg 200:'&l&eOK IMA DONE NOWZ!!' >0 1
+survival:
+  Cooldown: 100
+  Skills:
+  - potionself REGENERATION:1000:2 >0 1
+  - delay 100
+  - potionself REGENERATION:1000:2 >0 1
+Moon:
+  Cooldown: 4
+  Skills:
+  - potion 50:SLOW:40:5 >0 1
+  - potion 50:JUMP:40:5 >0 1
+  - potionself INVISIBILITY:3:4 >0 1
+  - projectile snowball:5:30 >0 1
+  - delay 10
+  - projectile snowball:25:20 >0 1
+  - delay 10
+  - projectile snowball:5:30 >0 1
+  - delay 10
+  - projectile snowball:25:20 >0 1
+  - delay 10
+  - projectile snowball:5:30 >0 1
+  - delay 10
+  - projectile snowball:25:20 >0 1
+  - delay 10
+  - projectile snowball:5:30 >0 1
+  - delay 10
+  - projectile snowball:25:20 >0 1
+MoonLord1:
+  Cooldown: 100
+  Skills:
+  - msg 50:'&7A Crescent Moon Shines in the Sky' >0 1
+  - delay 40
+  - msg 50:'&cIts Red Light Brings Bloodlust to Bare' >0 1
+  - delay 20
+  - delay 20
+  - summon angrypigzombie:15:10 >0 1
+  - delay 10
+  - potionmobs 50:DAMAGE_RESISTANCE:30:5 agrypigzombie,$Moonling >0 1
+  - potionmobs 50:INCREASE_DAMAGE:30:5 agrypigzombie,$Moonling >0 1
+  - potionmobs 50:FIRE_RESISTANCE:30:5 agrypigzombie,$Moonling >0 1
+  - potionmobs 50:ABSORPTION:30:5 agrypigzombie,$Moonling >0 1
+  - delay 100
+MoonLord2:
+  Cooldown: 150
+  Skills:
+  - msg 50:'&7A Waxing Moon Shines in the Sky' >0 1
+  - delay 40
+  - msg 50:'&1Its Blue Light Heals All' >0 1
+  - delay 20
+  - healself 200 >0 1
+  - potionmobs 50:REGENERATION:30:5 agrypigzombie,$Moonling >0 1
+  - potion 50:REGENERATION:30:1 >0 1
+MoonLord3:
+  Cooldown: 200
+  Skills:
+  - msg 50:'&cYou Feel a Strange Surge of Power Coming' >0 1
+  - delay 80
+  - msg 50:'&7A Full Moon Shines Brightly in the Sky' >0 1
+  - delay 20
+  - msg 50:'&e Its Golden Light Makes Spirits Thrive!' >0 1
+  - delay 10
+  - summon $MoonS:1:10 >0 1
+  - delay 10
+  - summon $MoonS:1:10 >0 1
+  - delay 10
+  - summon $MoonS:1:10 >0 1
+MoonLord4:
+  Cooldown: 150
+  Skills:
+  - msg 50:'&7A Waxing Moon Shines Calmly in the Sky' >0 1
+  - delay 40
+  - msg 50:'&7Its Silvery Light Calms Those Who See It' >0 1
+  - delay 20
+  - potionmobs 50:WEAKNESS:30:1 agrypigzombie,$Moonling >0 1
+  - potion 50:WEAKNESS:30:5 >0 1
+  - delay 20
+  - potion 50:WEAKNESS:30:5 >0 1
+  - delay 20
+  - potion 50:WEAKNESS:30:5 >0 1
+MoonLord5:
+  Cooldown: 250
+  Skills:
+  - msg 50:'&6A Cold Sensation Begins to Spread Throughout Your Body' >0 1
+  - delay 80
+  - msg 50:'&0&lThe Moon Grows Dark and Chaos Reigns' >0 1
+  - delay 10
+  - potion 100:BLINDNESS:30:5 >0 1
+  - potion 100:CONFUSION:30:5 >0 1
+  - potion 100:HUNGER:30:5 >0 1
+  - potion 100:POISON:30:5 >0 1
+  - potion 100:WITHER:30:5 >0 1
+  - forcepullnear 100:2:2 >0 1
+  - delay 30
+  - potion 100:BLINDNESS:30:5 >0 1
+  - potion 100:CONFUSION:30:5 >0 1
+  - potion 100:HUNGER:30:5 >0 1
+  - potion 100:POISON:30:5 >0 1
+  - potion 100:WITHER:30:5 >0 1
+  - forcepullnear 100:2:2 >0 1
+  - delay 30
+  - potion 100:BLINDNESS:30:5 >0 1
+  - potion 100:CONFUSION:30:5 >0 1
+  - potion 100:HUNGER:30:5 >0 1
+  - potion 100:POISON:30:5 >0 1
+  - potion 100:WITHER:30:5 >0 1
+  - forcepullnear 100:2:2 >0 1
+  - delay 30
+  - potion 100:BLINDNESS:30:5 >0 1
+  - potion 100:CONFUSION:30:5 >0 1
+  - potion 100:HUNGER:30:5 >0 1
+  - potion 100:POISON:30:5 >0 1
+  - potion 100:WITHER:30:5 >0 1
+  - forcepullnear 100:2:2 >0 1
+  - delay 30
+  - potion 100:BLINDNESS:30:5 >0 1
+  - potion 100:CONFUSION:30:5 >0 1
+  - potion 100:HUNGER:30:5 >0 1
+  - potion 100:POISON:30:5 >0 1
+  - potion 100:WITHER:30:5 >0 1
+  - forcepullnear 100:2:2 >0 1
+  - delay 30
+  - shootskull 50 >0 1
+  - delay 5
+  - shootskull 50 >0 1
+  - delay 5
+  - shootskull 50 >0 1
+  - delay 5
+  - shootskull 50 >0 1
+  - delay 5
+  - shootskull 50 >0 1
+  - delay 5
+  - shootskull 50 >0 1
+Moonling:
+  Cooldown: 4
+  Skills:
+  - potionself INVISIBILITY:3:1 >0 1
+  - projectile snowball:6:25 >0 1
+  - delay 10
+  - projectile snowball:6:25 >0 1
+  - delay 10
+  - projectile snowball:6:25 >0 1
+  - delay 10
+Banjo1:
+  Cooldown: 60
+  Skills:
+  - radiuscmd 50:'nick $player Scrublord' >0 1
+  - delay 5
+  - radiuscmd 50:'nick $player Nubzor' >0 1
+  - delay 5
+  - radiuscmd 50:'nick $player Trollcastle' >0 1
+  - delay 5
+  - radiuscmd 50:'nick $player Roflsobber' >0 1
+  - delay 5
+  - radiuscmd 50:'nick $player John' >0 1
+  - delay 5
+  - radiuscmd 50:'nick $player CthuluOnHulu' >0 1
+  - delay 5
+  - radiuscmd 50:'nick $player Nickname' >0 1
+  - delay 5
+  - radiuscmd 50:'nick $player Trollwalker' >0 1
+  - delay 5
+  - radiuscmd 50:'nick $player ADuck' >0 1
+  - delay 5
+  - radiuscmd 50:'nick $player SaladMan' >0 1
+  - projectile egg:70:20 >0 1
+  - delay 1
+  - projectile egg:100:30 >0 1
+  - delay 1
+  - projectile egg:100:40 >0 1
+  - delay 1
+  - projectile egg:100:10 >0 1
+  - delay 1
+  - projectile egg:100:5 >0 1
+  - delay 1
+  - projectile egg:100:4 >0 1
+  - delay 1
+  - projectile egg:100:3 >0 1
+  - delay 1
+  - projectile egg:100:2 >0 1
+  - delay 1
+  - projectile egg:100:1 >0 1
+  - delay 1
+  - projectile egg:100:20 >0 1
+  - delay 1
+  - projectile egg:100:30 >0 1
+  - delay 1
+  - projectile egg:100:40 >0 1
+  - delay 1
+  - projectile egg:100:10 >0 1
+  - delay 1
+  - projectile egg:100:5 >0 1
+  - delay 1
+  - projectile egg:100:4 >0 1
+  - delay 1
+  - projectile egg:100:3 >0 1
+  - delay 1
+  - projectile egg:100:2 >0 1
+  - delay 1
+  - projectile egg:100:1 >0 1
+  - delay 1
+  - projectile egg:100:20 >0 1
+  - delay 1
+  - projectile egg:100:30 >0 1
+  - delay 1
+  - projectile egg:100:40 >0 1
+  - delay 1
+  - projectile egg:100:10 >0 1
+  - delay 1
+  - projectile egg:100:5 >0 1
+  - delay 1
+  - projectile egg:100:4 >0 1
+  - delay 1
+  - projectile egg:100:3 >0 1
+  - delay 1
+  - projectile egg:100:2 >0 1
+  - delay 1
+  - projectile egg:100:1 >0 1
+  - delay 1
+  - projectile egg:100:20 >0 1
+  - delay 1
+  - projectile egg:100:30 >0 1
+  - delay 1
+  - projectile egg:100:40 >0 1
+  - delay 1
+  - projectile egg:100:10 >0 1
+  - delay 1
+  - projectile egg:120:5 >0 1
+  - delay 1
+  - projectile egg:120:4 >0 1
+  - delay 1
+  - projectile egg:120:3 >0 1
+  - delay 1
+  - projectile egg:120:2 >0 1
+  - delay 1
+  - projectile egg:120:1 >0 1
+  - delay 1
+  - projectile egg:120:20 >0 1
+  - delay 1
+  - projectile egg:120:30 >0 1
+  - delay 1
+  - projectile egg:120:40 >0 1
+  - delay 1
+  - projectile egg:120:10 >0 1
+  - delay 1
+  - projectile egg:120:5 >0 1
+  - delay 1
+  - projectile egg:120:4 >0 1
+  - delay 1
+  - projectile egg:120:3 >0 1
+  - delay 1
+  - projectile egg:120:2 >0 1
+  - delay 1
+  - projectile egg:120:1 >0 1
+  - delay 1
+  - projectile egg:140:20 >0 1
+  - delay 1
+  - projectile egg:140:30 >0 1
+  - delay 1
+  - projectile egg:140:40 >0 1
+  - delay 1
+  - projectile egg:140:10 >0 1
+  - delay 1
+  - projectile egg:140:5 >0 1
+  - delay 1
+  - projectile egg:140:4 >0 1
+  - delay 1
+  - projectile egg:140:3 >0 1
+  - delay 1
+  - projectile egg:140:2 >0 1
+  - delay 1
+  - projectile egg:140:1 >0 1
+  - delay 1
+  - projectile egg:140:20 >0 1
+  - delay 1
+  - projectile egg:140:30 >0 1
+  - delay 1
+  - projectile egg:140:40 >0 1
+  - delay 1
+  - projectile egg:140:10 >0 1
+  - delay 1
+  - projectile egg:140:5 >0 1
+  - delay 1
+  - projectile egg:140:4 >0 1
+  - delay 1
+  - projectile egg:70:3 >0 1
+  - delay 1
+  - projectile egg:140:2 >0 1
+  - delay 1
+  - projectile egg:140:1 >0 1
+  - delay 1
+  - projectile egg:140:20 >0 1
+  - delay 1
+  - projectile egg:140:30 >0 1
+  - delay 1
+  - projectile egg:140:40 >0 1
+  - delay 1
+  - projectile egg:140:10 >0 1
+  - delay 1
+  - projectile egg:140:5 >0 1
+  - delay 1
+  - projectile egg:140:4 >0 1
+  - delay 1
+  - projectile egg:140:3 >0 1
+  - delay 1
+  - projectile egg:140:2 >0 1
+  - delay 1
+  - projectile egg:140:1 >0 1
+  - delay 1
+  - projectile egg:140:20 >0 1
+  - delay 1
+  - projectile egg:140:30 >0 1
+  - delay 1
+  - projectile egg:140:40 >0 1
+  - delay 1
+  - projectile egg:140:10 >0 1
+  - delay 1
+  - projectile egg:140:5 >0 1
+  - delay 1
+  - projectile egg:140:4 >0 1
+  - delay 1
+  - projectile egg:140:3 >0 1
+  - delay 1
+  - projectile egg:140:2 >0 1
+  - delay 1
+  - projectile egg:140:1 >0 1
+  - delay 1
+  - projectile egg:140:20 >0 1
+  - delay 1
+  - projectile egg:140:30 >0 1
+  - delay 1
+  - projectile egg:140:40 >0 1
+  - delay 1
+  - projectile egg:140:10 >0 1
+  - delay 1
+  - projectile egg:140:5 >0 1
+  - delay 1
+  - projectile egg:140:4 >0 1
+  - delay 1
+  - projectile egg:140:3 >0 1
+  - delay 1
+  - projectile egg:140:2 >0 1
+  - delay 1
+  - projectile egg:140:1 >0 1
+  - delay 1
+  - projectile egg:140:20 >0 1
+  - delay 1
+  - projectile egg:140:30 >0 1
+  - delay 1
+  - projectile egg:140:40 >0 1
+  - delay 1
+  - projectile egg:140:10 >0 1
+  - delay 1
+  - projectile egg:140:5 >0 1
+  - delay 1
+  - projectile egg:140:4 >0 1
+  - delay 1
+  - projectile egg:140:3 >0 1
+  - delay 1
+  - projectile egg:140:2 >0 1
+  - delay 1
+  - projectile egg:140:1 >0 1
+  - delay 1
+  - projectile egg:140:20 >0 1
+  - delay 1
+  - projectile egg:140:30 >0 1
+  - delay 1
+  - projectile egg:140:40 >0 1
+  - delay 1
+  - projectile egg:140:10 >0 1
+  - delay 1
+  - projectile egg:140:5 >0 1
+  - delay 1
+  - projectile egg:140:4 >0 1
+  - delay 1
+  - projectile egg:140:3 >0 1
+  - delay 1
+  - projectile egg:140:2 >0 1
+  - delay 1
+  - projectile egg:140:1 >0 1
+  - delay 1
+  - projectile egg:70:20 >0 1
+  - delay 1
+  - projectile egg:70:30 >0 1
+  - delay 1
+  - projectile egg:70:40 >0 1
+  - delay 1
+  - projectile egg:70:10 >0 1
+  - delay 1
+  - projectile egg:70:5 >0 1
+  - delay 1
+  - projectile egg:70:4 >0 1
+  - delay 1
+  - projectile egg:70:3 >0 1
+  - delay 1
+  - projectile egg:70:2 >0 1
+  - delay 1
+  - projectile egg:70:1 >0 1
+  - delay 1
+  - projectile egg:70:20 >0 1
+  - delay 1
+  - projectile egg:70:30 >0 1
+  - delay 1
+  - projectile egg:70:40 >0 1
+  - delay 1
+  - projectile egg:70:10 >0 1
+  - delay 1
+  - projectile egg:70:5 >0 1
+  - delay 1
+  - projectile egg:70:4 >0 1
+  - delay 1
+  - projectile egg:70:3 >0 1
+  - delay 1
+  - projectile egg:70:2 >0 1
+  - delay 1
+  - projectile egg:70:1 >0 1
+  - delay 1
+  - projectile egg:70:20 >0 1
+  - delay 1
+  - projectile egg:70:30 >0 1
+  - delay 1
+  - projectile egg:70:40 >0 1
+  - delay 1
+  - projectile egg:70:10 >0 1
+  - delay 1
+  - projectile egg:70:5 >0 1
+  - delay 1
+  - projectile egg:70:4 >0 1
+  - delay 1
+  - projectile egg:70:3 >0 1
+  - delay 1
+  - projectile egg:70:2 >0 1
+  - delay 1
+  - projectile egg:70:1 >0 1
+  - delay 1
+  - lightning 150:50 >0 1
+  - delay 1
+  - lightning 150:50 >0 1
+  - delay 1
+  - lightning 150:50 >0 1
+  - delay 1
+  - lightning 150:50 >0 1
+  - delay 5
+  - lightning 250:60 >0 1
+  - delay 1
+  - lightning 250:60 >0 1
+  - delay 60
+  - projectile egg:2500:1000 >0 1
+  - radiuscmd 50:'nick $player Scrublord' >0 1
+  - delay 5
+  - radiuscmd 50:'nick $player Nubzor' >0 1
+  - delay 5
+  - radiuscmd 50:'nick $player 'Trollcastle' >0 1
+  - delay 5
+  - radiuscmd 50:'nick $player Roflsobber' >0 1
+  - delay 5
+  - radiuscmd 50:'nick $player John' >0 1
+  - delay 5
+  - radiuscmd 50:'nick $player CthuluOnHulu' >0 1
+  - delay 5
+  - radiuscmd 50:'nick $player Nickname' >0 1
+  - delay 5
+  - radiuscmd 50:'nick $player Trollwalker' >0 1
+  - delay 5
+  - radiuscmd 50:'nick $player ADuck' >0 1
+  - delay 5
+  - radiuscmd 50:'nick $player Saladman' >0 1
+  - delay 5
+  - radiuscmd 50:'nick $player CowUrine' >0 0.3
+  - delay 5
+  - radiuscmd 50:'nick $player FloppyPancake' >0 0.3
+  - delay 5
+  - radiuscmd 50:'nick $player Nubzor' >0 0.3
+  - delay 5
+  - radiuscmd 50:'nick $player 'Trollcastle' >0 0.3
+  - delay 5
+  - radiuscmd 50:'nick $player Roflsobber' >0 0.3
+UltimateBanjo:
+  Cooldown: 120
+  Skills:
+  - radiuscmd 100:'say $player PREPARE TO GET WAFFLE STOMPED!' >0 1
+  - potionself DAMAGE_RESISTANCE:20:10 >0 1
+  - delay 60
+  - shootfireball 500:false:0 >0 1
+  - delay 40
+  - projectile egg:10000:30 >0 1
+Noob0:
+  Cooldown: 20
+  Skills:
+  - potionself FIRE_RESISTANCE:2000:10 >0 1
+  - teleport >0 1
+  - delay 10
+  - shootfireball 1:true:3000 >0 1
+  - delay 2
+  - teleport >0 1
+  - delay 10
+  - shootfireball 1:true:3000 >0 1
+  - delay 2
+  - teleport >0 1
+  - delay 10
+  - shootfireball 1:true:3000 >0 1
+  - delay 2
+  - teleport >0 1
+  - delay 10
+  - shootfireball 1:true:3000 >0 1
+  - delay 2
+  - teleport >0 1
+  - delay 10
+  - shootfireball 1:true:3000 >0 1
+  - delay 2
+  - teleport >0 1
+  - delay 10
+  - shootfireball 1:true:3000 >0 1
+  - delay 2
+  - teleport >0 1
+  - delay 10
+  - shootfireball 1:true:3000 >0 1
+  - delay 2
+  - teleport >0 1
+  - delay 10
+  - shootfireball 1:true:3000 >0 1
+  - delay 2
+  - teleport >0 1
+  - delay 10
+  - shootfireball 1:true:3000 >0 1
+  - delay 2
+  - teleport >0 1
+  - delay 10
+  - shootfireball 1:true:3000 >0 1
+  - delay 2
+  - teleport >0 1
+  - delay 10
+  - potionself DAMAGE_RESISTANCE:3:10 >0 1
+  - shootfireball 4:false:0 >0 1
+cashcow:
+  Cooldown: 10
+  Skills:
+  - msg 20:'&eKACHING!' >0 0.1
+  - summon skeleton:3:1 >0 0.1
+trollA:
+  Cooldown: 20
+  Skills:
+  - shootfireball 25:false:0 >0 1
+  - delay 3
+  - shootskull 25 >0 1
+  - delay 3
+  - shootfireball 25:false:0 >0 1
+  - delay 3
+  - shootskull 25 >0 1
+  - delay 3
+  - shootfireball 25:false:0 >0 1
+  - delay 3
+  - shootskull 25 >0 1
+  - delay 3
+  - summon $Cashcow:3:100 >0 1
+  - summon $Priest:3:100 >0 0.1
+  - summon wither:3:20 <10000 0.3
+  - potion 50:WITHER:20:2 >0 0.5
+  - potion 50:POISON:20:2 >0 0.5
+  - potion 50:HUNGER:20:2 >0 0.5

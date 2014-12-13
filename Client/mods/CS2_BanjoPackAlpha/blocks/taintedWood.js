@@ -1,0 +1,37 @@
+name = "taintedWood";
+material = "wood";
+stepSound = "wood";
+creativeTab = "buildingBlocks";
+
+addToCreative[0] = true;
+canSilkHarvest[0] = true;
+fortuneModifier[0] = 0;
+hardness[0] = 55.0;
+information[0] = "let me out...|LET ME OUT OF HERE!";
+toolClass[0] = "axe";
+harvestLevel[0] = 3;
+resistance[0] = 22.0;
+drop[0] = "BanjoPackAlpha:taintedWood 1";
+isWood[0] = true;
+textureFileXP[0] = "log_taint.png";
+textureFileXN[0] = "log_taint.png";
+textureFileYP[0] = "log_taint_top.png";
+textureFileYN[0] = "log_taint_top.png";
+textureFileZP[0] = "log_taint.png";
+textureFileZN[0] = "log_taint.png";
+
+addToCreative[1] = true;
+canSilkHarvest[1] = true;
+fortuneModifier[1] = 0;
+hardness[1] = 35.0;
+information[1] = "let me out...|LET ME OUT OF HERE!";
+toolClass[1] = "axe";
+harvestLevel[1] = 2;
+resistance[1] = 17.0;
+drop[1] = "BanjoPackAlpha:taintedWood:1 1";
+textureFileXP[1] = "planks_taint.png";
+textureFileXN[1] = "planks_taint.png";
+textureFileYP[1] = "planks_taint.png";
+textureFileYN[1] = "planks_taint.png";
+textureFileZP[1] = "planks_taint.png";
+textureFileZN[1] = "planks_taint.png";

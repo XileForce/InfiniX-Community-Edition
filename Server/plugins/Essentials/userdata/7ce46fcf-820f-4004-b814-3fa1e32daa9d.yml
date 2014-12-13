@@ -1,0 +1,20 @@
+timestamps:
+  login: 1408087535802
+  lastteleport: 1408087594673
+  logout: 1408087851336
+ipAddress: 49.151.48.13
+lastlocation:
+  world: DIM_SPACESTATION2
+  x: 0.24180411865107904
+  y: 64.0
+  z: -14.825223605194715
+  yaw: -121.78465
+  pitch: 28.200092
+logoutlocation:
+  world: world
+  x: 1.1058086776694642
+  y: 67.0
+  z: 8.142548100382696
+  yaw: -6.7346306
+  pitch: 3.0000007
+lastAccountName: heyduzocker

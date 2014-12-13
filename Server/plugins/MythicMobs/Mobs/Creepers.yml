@@ -1,0 +1,206 @@
+Healies:
+  Mobtype: creeper
+  Display: '&1Healpers'
+  Health: 100
+  Damage: 1
+  Skills:
+  - skill Healybomb ~onExplode 1
+  Drops:
+  - phatloot creepermoney 1
+  Options:
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    ExplosionRadius: 1
+    PreventSuicide: true
+    FollowRange: 100
+  DamageModifiers:
+    - LIGHTNING 20
+    - BLOCK_EXPLOSION 0
+    - ENTITY_EXPLOSION 0
+    - VOID 20
+    - POISON 20
+    - MAGIC 20
+    - WITHER 20
+    - FALLING_BLOCK 20
+    - THORNS 20
+    - CUSTOM 20
+    - MELTING 20
+    - FALL 0
+    - FIRE_TICK 20
+    - FIRE 20
+    - SUFFOCATION 20
+    - PROJECTILE 20
+    - ENTITY_ATTACK 20
+    - CONTACT 200
+Deathies:
+  Mobtype: creeper
+  Display: '&4Killpers'
+  Health: 100
+  Damage: 1
+  Skills:
+  - skill Deathbomb ~onExplode 1
+  Drops:
+  - phatloot creepermoney 1
+  Options:
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    ExplosionRadius: 0
+    PreventSuicide: true
+    FollowRange: 100
+  DamageModifiers:
+    - FALL 0
+    - LIGHTNING 20
+    - BLOCK_EXPLOSION 0
+    - ENTITY_EXPLOSION 0
+    - VOID 20
+    - POISON 20
+    - MAGIC 20
+    - WITHER 20
+    - FALLING_BLOCK 20
+    - THORNS 20
+    - CUSTOM 0
+    - MELTING 20
+    - FIRE_TICK 20
+    - FIRE 20
+    - SUFFOCATION 20
+    - PROJECTILE 20
+    - ENTITY_ATTACK 20
+    - CONTACT 200
+Invisies:
+  Mobtype: creeper
+  Display: 'Sneakpers'
+  Health: 100
+  Damage: 1
+  Skills:
+  - potionboss INVISIBILITY:10000:4 ~onSpawn 1
+  - potionboss INVISIBILITY:1000:4 ~onTimer:1000 1
+  Drops:
+  - phatloot creepermoney 1
+  Options:
+    AlwaysShowName: false
+    PreventOtherDrops: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    ExplosionRadius: 5
+    FollowRange: 100
+  DamageModifiers:
+    - FALL 0
+    - LIGHTNING 20
+    - BLOCK_EXPLOSION 0
+    - ENTITY_EXPLOSION 0
+    - VOID 20
+    - POISON 20
+    - MAGIC 20
+    - WITHER 20
+    - FALLING_BLOCK 20
+    - THORNS 20
+    - CUSTOM 0
+    - MELTING 20
+    - FIRE_TICK 20
+    - FIRE 20
+    - SUFFOCATION 20
+    - PROJECTILE 20
+    - ENTITY_ATTACK 20
+    - CONTACT 200
+Zoomies:
+  Mobtype: creeper
+  Display: '&4KAMIKAZE'
+  Health: 5
+  Damage: 1
+  Drops:
+  - phatloot creepermoney 1
+  Options:
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    PreventMobKillDrops: true
+    ExplosionRadius: 2
+    FuseTicks: 10
+    FollowRange: 300
+    MovementSpeed: 1.5
+    FollowRange: 200
+  DamageModifiers:
+    - FALL 0
+    - BLOCK_EXPLOSION 0
+    - ENTITY_EXPLOSION 0
+Messies:
+  Mobtype: creeper
+  Display: '&4Debuffpers'
+  Health: 100
+  Damage: 1
+  Skills:
+  - skill Debuffbomb ~onExplode 1
+  Drops:
+  - phatloot creepermoney 1
+  Options:
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    ExplosionRadius: 0
+    PreventSuicide: true
+    FollowRange: 100
+  DamageModifiers:
+    - FALL 0
+    - LIGHTNING 20
+    - BLOCK_EXPLOSION 0
+    - ENTITY_EXPLOSION 0
+    - VOID 20
+    - POISON 0
+    - MAGIC 20
+    - WITHER 0
+    - FALLING_BLOCK 20
+    - THORNS 20
+    - CUSTOM 0
+    - MELTING 20
+    - FIRE_TICK 0
+    - FIRE 0
+    - SUFFOCATION 0
+    - PROJECTILE 20
+    - ENTITY_ATTACK 20
+    - CONTACT 200
+Cleansies:
+  Mobtype: creeper
+  Display: '&2Buffpers'
+  Health: 100
+  Damage: 1
+  Skills:
+  - skill Buffbomb ~onExplode 1
+  Drops:
+  - phatloot creepermoney 1
+  Options:
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    ExplosionRadius: 0
+    PreventSuicide: true
+    FollowRange: 100
+  DamageModifiers:
+    - FALL 0
+    - LIGHTNING 20
+    - BLOCK_EXPLOSION 0
+    - ENTITY_EXPLOSION 0
+    - VOID 20
+    - POISON 20
+    - MAGIC 20
+    - WITHER 20
+    - FALLING_BLOCK 20
+    - THORNS 20
+    - CUSTOM 20
+    - MELTING 20
+    - FIRE_TICK 20
+    - FIRE 20
+    - SUFFOCATION 20
+    - PROJECTILE 20
+    - ENTITY_ATTACK 20
+    - CONTACT 200
+TowerI1:
+  MobStack: Invisies,Invisies,Invisies,Invisies,Invisies,Invisies,Invisies,Invisies,Invisies,Invisies,Invisies,Invisies,Invisies
+TowerD1:
+  MobStack: Deathies,Deathies,Deathies,Deathies,Deathies,Deathies,Deathies,Deathies,Deathies,Deathies,Deathies,Deathies,Deathies,Deathies,Deathies,Deathies
+TowerM1:
+  MobStack: Messies,Messies,Messies,Messies,Messies,Messies,Messies,Messies,Messies,Messies,Messies,Messies,Messies,Messies,Messies,Messies,Messies,Messies,Messies,Messies,Messies

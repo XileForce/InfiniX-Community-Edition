@@ -1,0 +1,68 @@
+YouDare:
+  Cooldown: 15
+  Conditions:
+  - haspotioneffect BLINDNESS
+  Skills:
+  - msg 150:'$boss; &4YOU DARE BLIND ME?! I SHALL TEACH YOU WHAT HAPPENS WHEN U MESS WITH' >0 1
+  - msg 150:'$boss; &4BANJOS MOBS!!' >0 1
+  - delay 20
+  - potionboss SPEED:100:10 >0 1
+  - pull 400:20 >0 1
+YouDare2:
+  Cooldown: 15
+  Conditions:
+  - haspotioneffect SLOW
+  Skills:
+  - msg 150:'$boss; &4YOU DARE SLOW ME?! I SHALL TEACH YOU WHAT HAPPENS WHEN U MESS WITH' >0 1
+  - msg 150:'$boss; &4BANJOS MOBS!!' >0 1
+  - delay 20
+  - potionboss SPEED:100:10 >0 1
+  - pull 400:20 >0 1
+Destroy:
+  Cooldown: 12
+  Skills:
+  - msg 150:'$boss;&4.............................................................' >0 1
+  - delay 60
+  - msg 150:'$boss; &4&lBOOM' >0 1
+  - delay 1
+  - igniteall 200:1000 >0 1
+  - delay 1
+  - potion 100:CONFUSION:20:5 >0 1
+  - delay 1
+  - damageall 60:2000:true >0 1
+  - potion 100:WITHER:20:5 >0 1
+  - potionboss INVISIBILITY:8:4 >0 1
+  - delay 40
+  - summon creeper:3:2 >0 1
+Retort:
+  Cooldown: 15
+  Skills:
+  - lightning 0:5 >0 1
+  - delay 10
+  - lightning 0:5 >0 1
+  - delay 10
+  - lightning 0:5 >0 1
+  - delay 10
+  - lightning 0:5 >0 1
+  - delay 10
+  - lightning 0:5 >0 1
+  - delay 10
+  - potionboss INVISIBILITY:4:4 >0 1
+  - delay 40
+  - summon creeper:2:2 >0 1
+DestroyN:
+  Cooldown: 24
+  Skills:
+  - msg 150:'$boss;&4.............................................................' >0 1
+  - delay 60
+  - msg 150:'$boss; &4&lBOOM' >0 1
+  - delay 1
+  - igniteall 200:1000 >0 1
+  - delay 1
+  - potion 100:CONFUSION:20:5 >0 1
+  - delay 1
+  - damageall 25:1000:false >0 1
+  - potion 100:WITHER:20:5 >0 1
+  - potionboss INVISIBILITY:8:4 >0 1
+  - delay 40
+  - summon creeper:3:2 >0 1

@@ -1,0 +1,178 @@
+Artist:
+  Mobtype: witchery-banshee
+  Display: '&1The Misunderstood Artist'
+  Health: 10000
+  Damage: 9003
+  Skills:
+  - skill ART >0 0.02
+  - skill Colors >0 1
+  - skill Painted  1
+  - skill Engarde ~onDamaged 1
+  - msg 500:'CURSES $target YOU WIN THIS TIME!' ~onDeath 1
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: -0.4
+    MaxCombatDistance: 10
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventSuicide: true
+    ShowHealth: true
+    FollowRange: 300
+  DamageModifiers:
+    - LIGHTNING 0.1
+    - BLOCK_EXPLOSION 0
+    - ENTITY_EXPLOSION 0
+    - VOID 0
+    - POISON 0
+    - MAGIC 0
+    - WITHER 0
+    - FALLING_BLOCK 1
+    - THORNS 2
+    - CUSTOM 0
+    - MELTING 0
+    - FIRE_TICK 0
+    - FIRE 0.1
+    - SUFFOCATION 0
+    - PROJECTILE 0.2
+    - ENTITY_ATTACK 0.01
+    - FALL 0
+SESkeleton:
+  Mobtype: GalacticraftCore-EvolvedSkeleton
+  Display: 'EvolvedSkeleton'
+  Health: 100
+  Damage: 12
+  Drops:
+  - money 20 1
+  Options:
+    AlwaysShowName: false
+    PreventOtherDrops: false
+    KnockbackResistance: 1
+    PreventMobKillDrops: true
+    ShowHealth: false
+    FollowRange: 60
+  DamageModifiers:
+    - LIGHTNING 0.5
+    - BLOCK_EXPLOSION 0.2
+    - ENTITY_EXPLOSION 0.2
+    - VOID 0
+    - POISON 0
+    - MAGIC 0
+    - WITHER 0
+    - FALLING_BLOCK 1
+    - THORNS 1
+    - MELTING 0
+    - FIRE_TICK 0
+    - FIRE 0.1
+    - PROJECTILE 0.5
+    - ENTITY_ATTACK 0.1
+    - FALL 0
+SESkeletonZ:
+  Mobtype: GalacticraftCore-EvolvedSkeleton
+  Display: 'EvolvedSkeleton'
+  Health: 100
+  Damage: 20
+  Drops:
+  - money 10 1
+SMarauder:
+  Mobtype: borderlands-Marauder
+  Display: 'Marauder'
+  Health: 100
+  Damage: 20
+  Drops:
+  - money 10 1
+  Options:
+    AlwaysShowName: false
+    PreventOtherDrops: false
+    KnockbackResistance: 1
+    PreventMobKillDrops: true
+    ShowHealth: false
+    FollowRange: 60
+  DamageModifiers:
+    - LIGHTNING 0.5
+    - BLOCK_EXPLOSION 0.4
+    - ENTITY_EXPLOSION 0.4
+    - VOID 0
+    - POISON 0.2
+    - MAGIC 0.2
+    - WITHER 0.1
+    - FALLING_BLOCK 1
+    - THORNS 1
+    - MELTING 0
+    - FIRE_TICK 0.1
+    - FIRE 0.1
+    - PROJECTILE 0.2
+    - ENTITY_ATTACK 0.1
+    - FALL 0
+NEZombie:
+  Mobtype: GalacticraftCore-EvolvedZombie
+  Display: 'EvolvedSkeleton'
+  Health: 1
+  Damage: 12
+  Options:
+    AlwaysShowName: false
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    PreventMobKillDrops: true
+    ShowHealth: false
+    FollowRange: 60
+    MovementSpeed: 0.4
+    MaxCombatDistance: 2
+  DamageModifiers:
+    - LIGHTNING 0.5
+    - BLOCK_EXPLOSION 0.4
+    - ENTITY_EXPLOSION 0.4
+    - VOID 0
+    - POISON 0
+    - MAGIC 0
+    - WITHER 0
+    - FALLING_BLOCK 1
+    - THORNS 1
+    - MELTING 0
+    - FIRE_TICK 0
+    - FIRE 0
+    - PROJECTILE 0.2
+    - ENTITY_ATTACK 0.1
+    - FALL 0
+Troll:
+  Mobtype: spider
+  Display: '&cSpider, Level 5'
+  Health: 36
+  Damage: 1000
+  Options:
+    AlwaysShowName: false
+    PreventOtherDrops: false
+    KnockbackResistance: 1
+    PreventMobKillDrops: true
+    ShowHealth: false
+    FollowRange: 60
+    MovementSpeed: 0.5
+    MaxCombatDistance: 8
+  DamageModifiers:
+    - LIGHTNING 0.001
+    - BLOCK_EXPLOSION 0.001
+    - ENTITY_EXPLOSION 0.001
+    - VOID 0
+    - POISON 0.0001
+    - MAGIC 0.0001
+    - WITHER 0.0001
+    - FALLING_BLOCK 0.0001
+    - THORNS 0.001
+    - MELTING 0
+    - FIRE_TICK 0.0001
+    - FIRE 0.0001
+    - PROJECTILE 0.0001
+    - ENTITY_ATTACK 0.0001
+    - FALL 0
+    - SUFFOCATION 0
+    - DROWNING 0
+    - LAVA 0
+    - CONTACT 15
+    - CUSTOM 0
+TowerSMAR1:
+  MobStack: SMarauder,SMarauder,SMarauder,SMarauder,SMarauder,SMarauder,SMarauder,SMarauder,SMarauder,SMarauder,SMarauder,SMarauder,SMarauder,SMarauder,SMarauder,SMarauder
+TowerSESk:
+  MobStack: SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton
+TowerSESkX:
+  MobStack: SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton,SESkeleton

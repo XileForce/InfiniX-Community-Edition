@@ -1,0 +1,192 @@
+Article I: Rules.
+1) Common sense.
+A. Griefing of spawn is a bannable offense.
+B. Insulting, harassing, or cursing at staff is not permitted.
+C. Utilization of foul language or all capital letters is punishable through being made mute.
+D. Racism is unacceptable.
+E. Spawn camping is jailable for a first offense, bannable for subsequent offenses.
+E-1: Spawn camping applies only to spawn itself, not to the faction homes of bases or private homes.
+F. Killing anyone within spawn, or hindering the safety of spawn through the use of magic, gas, or any form of bypass is a bannable offense, regardless of previous violations of any rules, or lack thereof.
+G. Encouraging any of the previously mentioned is punishable by mute, jail, and ban for the first, second, and third offenses, respectively.
+H. DevilDogMaster Shall Never Leave Server Unless Dismissed.
+2) faction Betrayal
+A. Members are free to join and leave factions at their own discretion.
+A-1: Additionally, leaders are free to kick members at their own discretion.
+B. Alliance may be made and dissolved freely.
+C. As a precaution for the previous statements, the following rules are to observed:
+C-1: Members leaving factions are not permitted to raid, sell the coordinates of, steal from, kill members of, or raise hostilities against their faction of origin.
+C-2: Alliances in which members share bases, upon dissolution, may not wage war on one another through use of teleportation.
+C-2-A: If you were allies with a faction you attack at any point in time, and wage war on them through the use of teleportation, REGARDLESS of when you set the home, if one is used, you WILL BE BANNED. Staff are not going to sift through pages of logs to see when you set some form of teleportation point. TP warfare is forbidden after an alliance is made. Unless you yourself can prove beyond a doubt that you NEVER set foot in that base.
+D. When it comes to the matters of allowing factions into your base prior to an alliance, any actions they take are not betrayal.
+E. faction laws can be set by leaders and observed by staff as guidelines against betrayal.- within reason. These laws must be made public knowledge via the forums.
+E-1: faction Laws must not severely limit the actions of members. Investigation of these claims will be done on a case-by-case basis. This means staff will not be responsible for actively reading laws and determining their infringement on a player's freedom, as instead we will rely on community appeals to bring such violations to our attention. IN simple terms: If you feel a law restricts your freedom severely, report it to a staff member once. We will not waste our time on people who spam appeals.
+3) The Big Brother Doctrine:
+In the case of server administration, maintenance, and moderation, staff reserve the right to take actions they deem necessary to maintain law and order, as well as a safe and friendly environment for new members of the Infinix Community.
+A. Senior Staff reserve the right to institute unofficial rules for the duration of their activity for that day on the server.
+B. Junior staff can and will enforce rules they witness Senior Staff institute for the duration of their activity for that day on the server.
+C. All Big Brother laws are to be made within reason, and approved by either Xile or Schind prior to a senior staff member enacting them.
+
+Article II: Guidelines.
+1) Common Sense.
+A. faction Creation: factions may be made and dissolved at will, but the following are not permitted-
+1) The use of profanity or racism in the name or description of your faction, as this is something which can be seen publically.
+2) The deliberate use of a faction name to antagonize other players.
+B. Server Command Usage: As members and donators, users of the server have access to multiple commands, this section will cover certain non-permissible abuses of those commands.
+1) TPA: The /tpa command is not to be abused by spamming someone with it, especially not after they have denied you. The only way for this to be fixed is to have the offender jailed. No one likes being jailed, so this is not something you want to do.
+2) Do not spam chat by asking to join factions, chat needs to be kept primarily clear for the use of trade and other immediate issues. If no one replies, wait for a short amount of time before asking once again, then make your own faction if left unanswered by using /F create.
+Article III: FAQs.
+Q: Why am I crashing all the time?
+A: Listen, please go to the logs section of your technic folders and fin us the crash report, then calmly post said log on the forums under client side bugs.
+
+Q: Oh my god, the server keeps crashing when I log in!
+A: Fantastic, don't log in, place a calm, cleanly written report on the server-side bugs side of the forums, and a senior staff member will help you when they can. As a donator, if your play time is infringed upon, I'm sure some kind of agreement can be reached for an extension of your donator perks.
+
+Q: No one will let me join their faction! Why?
+A: Because, even though betrayal is bannable, people are paranoid. Some of the factions want you to apply via the forums so that an official reference of you being in the faction can be seen JUST IN CASE you betray. If you still cannot get into a faction, make your own.
+
+Q: What do I do if I feel a mod has abused their powers?
+A: Start by thinking about what you may have done, then calmly ask the staff member why he/she punished you. If you feel their answer is insufficient, post a request on the forums to have it reviewed. This does not really apply to mutes, otherwise we would have a lot of these requests.
+
+
+Q: What if I think my faction was betrayed?
+A: Start by asking around the server in a calm and polite manner to see if anyone knows who raided you, if you find out, ask them how they found you. Keep in mind, they have the right to deny you an answer. After you figured out who raided you, look at your members and theirs, is someone from your faction now in theirs? If yes, you were likely betrayed. Post evidence and suspects in a ban request and server staff will take the case from there.
+If you cannot find out who raided you, see if anyone in the faction is MIA or has suddenly started acting weird. Privately approach a staff member about the member in question, and we will get to the case in due time.
+
+Q: Someone is spamming me a tpa! No mods are on! What do I do!?
+A: The /ignore command should work in this case, if it does not, take a break or minimize chat and report this person to staff.
+
+Q:Somone said "X" in chat and it offended me, what do I do?
+A: First of all, we don't consider "You're a poop-head" as offensive, if someone yells in call caps that you're an expletive, or your mother was an expletive, screenshot it and ask them not to say that again. If they continue, screenshot it again and report them to staff. The same applies to bystanders, if someone is screaming profanities in chat, you are as responsible as anyone else to report them to staff for violating the peace of the Infinix Community.
+
+Q: How do I become a cool staff member like all you people with the neat prefixes?
+A: Post a staff application in the proper area of the forums. Include your age. Don't be bummed when you don't get a reply, staff are "hired" on the basis of need, not supply.
+
+BAN LIST
+Bans:
+  Usage:
+  - 13543
+  - 31980
+  - 31954
+  - 31956
+  - 30208
+  - 31957
+  - 6294
+  - 20414
+  Ownership:
+# Mystcraft Stuff Start
+  - 1585
+  - 8957
+  - 8956
+  - 8963
+  - 30872:56 
+  - 10885:6 
+  - 10885:11 
+  - 10886:43 
+  - 1927 
+  - 8960
+  - 1575
+  - 1576
+  - 1586
+  - 1584
+  - 1577
+  - 1578
+  - 1579
+  - 1580
+  - 1581
+  - 1582
+  - 1583
+  - 1584
+# Mystcraft Stuff End
+  - 103
+  - 10885-9
+  - 6361
+  - 6360
+  - 14322
+  - 22413
+  - 1026
+  - 9576
+  - 1030
+  - 1503
+  - 26492-5
+  - 1794
+  - 26467
+  - 26468
+  - 26469
+  - 26470
+  - 26471
+  - 5262
+  - 13543
+  - 3493-1
+  - 20421
+  - 23598
+  - 11415
+  - 2353-0
+  - 27527-4
+  - 27527-6
+  - 27539
+  - 5283
+  - 5284
+  - 5285
+  - 21948
+  - 11416
+  - 31952
+  - 2029
+  - 2507-1
+  - 4031-0
+  - 31970
+  - 31957
+  - 1970
+  - 6294
+  - 31956
+  - 1341
+  - 10005
+  - 1123
+  - 4034-7
+  - 31954
+  - 23632
+  - 23675
+  - 2671
+  - 2672
+  - 3883-22
+  - 3883-12
+  - 3883-23
+  - 23653
+  - 23570
+  - 23325
+  - 23487
+  - 23488
+  - 1000-6
+  - 23489
+  - 31980
+  - 23490
+  World:
+  - 1914
+  - 1581
+  - 1026
+  - 1794
+  - 1970
+  - 20414
+  - 20421
+  - 23325
+  - 11416
+  - 2671
+  - 1341
+  - 2672
+  - 11415
+  - 1000-6
+  - 23487
+  - 3883-22
+  - 3883-12
+  - 3883-23
+  - 23488
+  - 23489
+  - 23490
+Messages:
+  labels:
+    13543: Rapiers
+    1000-6: Wrath Lamp
+    30208: Mining Lasers
+  reasons:
+    13543: Rapiers completely Bypass Armor
+    30208: Mining Lasers Bypass Everything
+    1000-6: Wrath Lamps Cause Memory Leaks and LagZ!

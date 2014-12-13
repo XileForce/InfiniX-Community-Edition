@@ -1,0 +1,25 @@
+timestamps:
+  login: 1406829303333
+  lastteleport: 1406830661035
+  logout: 1406830686347
+ipAddress: 73.42.154.78
+lastlocation:
+  world: world
+  x: 9860.424372266614
+  y: 116.39131776648449
+  z: 9041.150891460915
+  yaw: -279.56958
+  pitch: 17.69999
+godmode: true
+nickname: Kaosi
+logoutlocation:
+  world: DIM_SPACESTATION2
+  x: -7.699999988079071
+  y: 65.0
+  z: 30.69999998807907
+  yaw: -135.43472
+  pitch: 8.850067
+ban:
+  reason: "\xa74Banned:\n\xa7rThe Ban Hammer has spoken!"
+  timeout: 0
+lastAccountName: kaosi

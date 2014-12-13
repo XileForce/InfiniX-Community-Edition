@@ -1,0 +1,42 @@
+RandomHealies:
+  Mobname: Healies
+  Worlds: world
+  Chance: 0.01
+  Priority: 1
+  Conditions:
+  - outside true
+RandomDeathies:
+  Mobname: Deathies
+  Worlds: world
+  Chance: 0.001
+  Priority: 1
+  Conditions:
+  - outside true
+RandomZoomies:
+  Mobname: Zoomies
+  Worlds: world
+  Chance: 0.02
+  Priority: 1
+  Conditions:
+  - outside true
+RandomInvisies:
+  Mobname: Invisies
+  Worlds: world
+  Chance: 0.005
+  Priority: 1
+  Conditions:
+  - outside true
+RandomCleansies:
+  Mobname: Cleansies
+  Worlds: world
+  Chance: 0.001
+  Priority: 1
+  Conditions:
+  - outside true
+RandomMessies:
+  Mobname: Messies
+  Worlds: world
+  Chance: 0.005
+  Priority: 1
+  Conditions:
+  - outside true

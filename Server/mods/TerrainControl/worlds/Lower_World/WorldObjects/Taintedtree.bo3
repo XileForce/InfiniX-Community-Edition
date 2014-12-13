@@ -1,0 +1,126 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+# This is the config file of a custom object.
+# If you add this object correctly to your BiomeConfigs, it will spawn in the world.
+# 
+# This is the creator of this BO3 object
+Author:Banjomarx
+
+# A short description of this BO3 object
+Description:test
+
+# The BO3 version, don't change this! It can be used by external applications to do a version check.
+Version:3
+
+# The settings mode, WriteAll, WriteWithoutComments or WriteDisable. See WorldConfig.
+SettingsMode:WriteAll
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+# This needs to be set to true to spawn the object in the Tree and Sapling resources.
+Tree:true
+
+# The frequency of the BO3 from 1 to 200. Tries this many times to spawn this BO3 when using the CustomObject(...) resource.
+Frequency:25
+
+# The rarity of the BO3 from 0 to 100. Each spawn attempt has rarity% chance to succeed when using the CustomObject(...) resource.
+Rarity:100.0
+
+# If you set this to true, the BO3 will be placed with a random rotation.
+RotateRandomly:true
+
+# The spawn height of the BO3 - randomY, highestBlock or highestSolidBlock.
+SpawnHeight:highestSolidBlock
+
+# The height limits for the BO3.
+MinHeight:0
+MaxHeight:240
+
+# When spawned with the UseWorld keyword, this BO3 should NOT spawn in the following biomes.
+# If you write the BO3 name directly in the BiomeConfigs, this will be ignored.
+ExcludedBiomes:All
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+# The block the BO3 should spawn in
+SourceBlock:0
+
+# The maximum percentage of the BO3 that can be outside the SourceBlock.
+# The BO3 won't be placed on a location with more blocks outside the SourceBlock than this percentage.
+MaxPercentageOutsideSourceBlock:10
+
+# What to do when a block is about to be placed outside the SourceBlock? (dontPlace, placeAnyway)
+OutsideSourceBlock:dontPlace
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+# Trunk
+Block(0,0,0,BanjoPackAlpha:taintedWood)
+Block(0,1,0,BanjoPackAlpha:taintedWood)
+Block(0,2,0,BanjoPackAlpha:taintedWood)
+Block(0,3,0,BanjoPackAlpha:taintedWood)
+Block(0,4,0,BanjoPackAlpha:taintedWood)
+# Top Leaf
+Block(0,5,0,BanjoPackAlpha:meatLeaf:1)
+#Second Leaf layer
+Block(1,4,0,BanjoPackAlpha:meatLeaf:1)
+block(0,4,1,BanjoPackAlpha:meatLeaf:1)
+Block(-1,4,0,BanjoPackAlpha:meatLeaf:1)
+block(0,4,-1,BanjoPackAlpha:meatLeaf:1)
+Block(1,4,1,BanjoPackAlpha:meatLeaf:1)
+block(-1,4,-1,BanjoPackAlpha:meatLeaf:1)
+Block(-1,4,1,BanjoPackAlpha:meatLeaf:1)
+block(1,4,-1,BanjoPackAlpha:meatLeaf:1)
+# Third leaf Layer
+Block(1,3,0,BanjoPackAlpha:meatLeaf:1)
+block(0,3,1,BanjoPackAlpha:meatLeaf:1)
+Block(-1,3,0,BanjoPackAlpha:meatLeaf:1)
+block(0,3,-1,BanjoPackAlpha:meatLeaf:1)
+Block(1,3,1,BanjoPackAlpha:meatLeaf:1)
+block(-1,3,-1,BanjoPackAlpha:meatLeaf:1)
+Block(-1,3,1,BanjoPackAlpha:meatLeaf:1)
+block(1,3,-1,BanjoPackAlpha:meatLeaf:1)
+Block(2,3,0,BanjoPackAlpha:meatLeaf:1)
+block(0,3,2,BanjoPackAlpha:meatLeaf:1)
+Block(-2,3,0,BanjoPackAlpha:meatLeaf:1)
+block(0,3,-2,BanjoPackAlpha:meatLeaf:1)
+Block(2,3,2,BanjoPackAlpha:meatLeaf:1)
+block(-2,3,-2,BanjoPackAlpha:meatLeaf:1)
+Block(-2,3,2,BanjoPackAlpha:meatLeaf:1)
+block(2,3,-2,BanjoPackAlpha:meatLeaf:1)
+Block(2,3,1,BanjoPackAlpha:meatLeaf:1)
+block(1,3,2,BanjoPackAlpha:meatLeaf:1)
+Block(-2,3,1,BanjoPackAlpha:meatLeaf:1)
+block(1,3,-2,BanjoPackAlpha:meatLeaf:1)
+Block(2,3,-1,BanjoPackAlpha:meatLeaf:1)
+block(-1,3,2,BanjoPackAlpha:meatLeaf:1)
+Block(-2,3,-1,BanjoPackAlpha:meatLeaf:1)
+block(-1,3,-2,BanjoPackAlpha:meatLeaf:1)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+# Require a condition at a certain location in order for the BO3 to be spawned.
+# BlockCheck(x,y,z,id[.data][,id[.data][,...]])
+BlockCheck(0,-1,0,GRASS)
+

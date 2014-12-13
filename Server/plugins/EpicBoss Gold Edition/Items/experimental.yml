@@ -1,0 +1,18 @@
+testS:
+  Id: 30806
+  Data: 0
+  Amount: 1
+  Display: '&o&0&lEssence of Banjhulu'
+  Lores:
+  - '&cLong Shrouded in Mystery, the Soul'
+  - '&cof the Ancient and Evil Lord Banjhulu'
+  - '&cResides within this Weapon. Be Warned it Seeks'
+  - '&ca Host........'
+  Enchants:
+  - DAMAGE_ALL:10
+  - LOOT_BONUS_MOBS:10
+  - THORNS:10
+  Tags:
+    Speed: 0.65
+    Health: -200
+    Attack: 550

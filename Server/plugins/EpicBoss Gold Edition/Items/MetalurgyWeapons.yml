@@ -1,0 +1,271 @@
+HepatizonS:
+  Id: 6712
+  Data: 0
+  Amount: 1
+  Display: '&6Broken Sword of the Forgotten Hero'
+  Lores:
+  - '&eOnce Wielded Against Ancient Evils'
+  - '&eThis Weapon Could Use a Sh*t Ton of Paint'
+  Enchants:
+  - DAMAGE_UNDEAD:6
+  - DAMAGE_ALL:3
+  - DURABILITY:10
+  Tags:
+    Speed: 0.08
+    Health: 5
+    Attack: 1
+DamascusS:
+  Id: 6762
+  Data: 0
+  Amount: 1
+  Display: '&6Sword of the Soldier'
+  Lores:
+  - '&eA Reliable Sword that Protects Better than'
+  - '&eit Damages'
+  Enchants:
+  - PROTECTION_ENVIRONMENTAL:6
+  - DAMAGE_ALL:3
+  - DURABILITY:10
+  - THORNS:4
+  Tags:
+    Health: 15
+    Attack: 1
+AngmallenS:
+  Id: 6812
+  Data: 0
+  Amount: 1
+  Display: '&eDecorative Sword'
+  Lores:
+  - '&eThis Sword Shines Brightly but is All'
+  - '&ebut Useless in Combat'
+  Tags:
+    Health: 5
+    Attack: 1
+SteelS:
+  Id: 6862
+  Data: 0
+  Amount: 1
+  Display: '&7Lost Sword of the Soldier'
+  Lores:
+  - '&eLegends Say that Though this Sword was Lost'
+  - '&eWhen its Owner Truly Needed it it was Within Reach'
+  - '&7some believe he had just overlooked it earlier'
+  Enchants:
+  - PROTECTION_ENVIRONMENTAL:6
+  - DAMAGE_ALL:4
+  - DURABILITY:10
+  - THORNS:3
+  Tags:
+    Health: 15
+    Attack: 2
+IgnatiusS:
+  Id: 7162
+  Data: 0
+  Amount: 1
+  Display: '&cSword of the Smith'
+  Lores:
+  - '&eIt is Said that when Eoldren the Smith was on his'
+  - '&eDeath Bed he Recieved a Vision in which he Recieved a Boon'
+  - '&efrom Vorddran the Smith God Telling him his Duty was not yet Done'
+  - '&ethe Next Day they found this Sword where his Body had been, and his'
+  - '&eBody was Nowhere in Sight'
+  Enchants:
+  - PROTECTION_FIRE:6
+  - DAMAGE_ALL:3
+  - DURABILITY:10
+  - FIRE_ASPECT:4
+  Tags:
+    Health: 5
+    Attack: 4
+SIronS:
+  Id: 7212
+  Data: 0
+  Amount: 1
+  Display: '&5Dllokrun Sword'
+  Lores:
+  - '&4When the Evil Lord Glikknir had Finished Gathering'
+  - '&4his Armies he Set them to Smithing Swords that Could'
+  - '&4Challenge the Might of the Blessed Swords of &eYllthala'
+  - '&4After Seven Days of Screams these Swords Emerged from the'
+  - '&4Forges Strangely though Thousands of them were forged'
+  - '&4no Accounts of their Forging or of the Smiths who did it'
+  - '&4have Ever been Recovered'
+  Enchants:
+  - DAMAGE_ALL:6
+  - DURABILITY:10
+  - THORNS:1
+  - FIRE_ASPECT:3
+  Tags:
+    Health: 2
+    Attack: 9
+MidasiumS:
+  Id: 7312
+  Data: 0
+  Amount: 1
+  Display: '&eSoldier Sword of Yllthala'
+  Lores:
+  - '&eRadiant Light Leaks from this Sword'
+  - '&eIts Power Against the Undead is not something to Reckon with'
+  Enchants:
+  - PROTECTION_ENVIRONMENTAL:3
+  - DAMAGE_ALL:5
+  - DURABILITY:10
+  - DAMAGE_UNDEAD:7
+  Tags:
+    Health: 25
+    Attack: 2
+VyroxeresS:
+  Id: 7362
+  Data: 0
+  Amount: 1
+  Display: '&0Fallen Sword of the Paladin'
+  Lores:
+  - '&aOnce a Pure and Holy Sword'
+  - '&athis Weapon was Tainted when Glikknir'
+  - '&aTricked a Paladin into Slaying an Innocent'
+  - '&aSince then it Corrupts Everything it Touches'
+  Enchants:
+  - PROTECTION_ENVIRONMENTAL:6
+  - DAMAGE_ALL:9
+  - DURABILITY:10
+  - THORNS:6
+  Tags:
+    Health: -5
+    Attack: 15
+CeruclaseS:
+  Id: 7412
+  Data: 0
+  Amount: 1
+  Display: '&1Zonlanga Sword'
+  Lores:
+  - '&eWhen All Seemed Lost for the Yllthala People'
+  - '&ethere Arrived a Third Party to the War of Darkness'
+  - '&eMasters of Time the Zonlanga Could Move Faster than'
+  - '&ethe Eye can See and Cut With Deadly Precision'
+  Enchants:
+  - DAMAGE_ALL:10
+  - DURABILITY:10
+  Tags:
+    Speed: 0.8
+    Health: -15
+    Attack: 15
+KalendriteS:
+  Id: 7512
+  Data: 0
+  Amount: 1
+  Display: '&eSword of the Yllthalan Lords'
+  Lores:
+  - '&eThis Sword Radiates Light'
+  - '&eIt Judges those it Cuts and those who are Unnatural'
+  - '&eAre Dealt Decisive Blows'
+  - '&eIts Fatal Flaw was Exposed in the War of Darkness However'
+  - '&eFor though Evil is not Confined to Abominations Alone'
+  - '&eThis Sword Does Little to those who have Evil in their Hearts yet'
+  - '&eStill take Breath'
+  Enchants:
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FIRE:10
+  - PROTECTION_PROJECTILE:10
+  - DURABILITY:10
+  - THORNS:10
+  - DAMAGE_UNDEAD:10
+  Tags:
+    Health: 85
+    Attack: -7
+VulcaniteS:
+  Id: 7562
+  Data: 0
+  Amount: 1
+  Display: '&cSword of Vorddran'
+  Lores:
+  - '&cPerhaps Forged by Vorddran Himself'
+  - '&cRegardless it Cuts Really Well and Lights'
+  - '&cStuff on Fire....Good Times'
+  Enchants:
+  - PROTECTION_FIRE:10
+  - DAMAGE_ALL:7
+  - DURABILITY:10
+  - THORNS:4
+  - FIRE_ASPECT:10
+  Tags:
+    Health: 5
+    Attack: 17
+SanguiniteS:
+  Id: 7612
+  Data: 0
+  Amount: 1
+  Display: '&0Sword of the WitherLord'
+  Lores:
+  - '&eThough Originally Reluctant, Eventually the WitherLord Joined'
+  - '&eGlikknirs Forces out of his Hatred of Yllthala'
+  Enchants:
+  - PROTECTION_ENVIRONMENTAL:3
+  - DAMAGE_ALL:10
+  - DURABILITY:10
+  - THORNS:10
+  Tags:
+    Health: 25
+    Attack: 20
+SSteelS:
+  Id: 7662
+  Data: 0
+  Amount: 1
+  Display: '&0&lSword of Glikknir'
+  Lores:
+  - '&cForged from Pure Evil the Terrible Toll'
+  - '&cthis Sword Exacts on its Wielder May Destroy'
+  - '&cthose Frail in Mind or Body'
+  - '&c&lDO NOT WIELD IT UNLESS YOU CAN WITHSTAND THIS POWER!'
+  Enchants:
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FIRE:10
+  - PROTECTION_EXPLOSIONS:10
+  - PROTECTION_PROJECTILE:10
+  - DAMAGE_ALL:10
+  - DURABILITY:10
+  - THORNS:10
+  - LOOT_BONUS_MOBS:6
+  - KNOCKBACK:9
+  Tags:
+    Health: -60
+    Attack: 45
+InolashiteS:
+  Id: 7712
+  Data: 0
+  Amount: 1
+  Display: '&1&lSword of Time'
+  Lores:
+  - '&eThe True Power in Zonlanga this Powerful Once-Sentient'
+  - '&eSword Directed the Time Masters Before the Great War'
+  - '&eOnce Able to Litteraly Cleave Time into Twain it Sacrificed'
+  - '&eIts Consciousness and Much of its Power to Seal Away Glikknir'
+  Enchants:
+  - LOOT_BONUS_MOBS:7
+  - PROTECTION_ENVIRONMENTAL:10
+  - DAMAGE_ALL:10
+  - DURABILITY:10
+  Tags:
+    Speed: 0.25
+    Health: 40
+    Attack: 22
+AtlarusS:
+  Id: 8512
+  Data: 0
+  Amount: 1
+  Display: '&e&lHoly Sword of Yllthala'
+  Lores:
+  - '&eResponsible for the Ten Thousand Years of Prosperity and Peace'
+  - '&eYllthala Experienced Before the War of Shadows'
+  - '&eSome Believe this Sword a Divine Gift yet Others Believe it a Divinity Itself'
+  Enchants:
+  - PROTECTION_ENVIRONMENTAL:10
+  - DAMAGE_ALL:10
+  - DURABILITY:10
+  - THORNS:5
+  - LOOT_BONUS_MOBS:10
+  - LOOT_BONUS_BLOCKS:10
+  - DIG_SPEED:10
+  - DAMAGE_UNDEAD:10
+  Tags:
+    Health: 135
+    Attack: 10

@@ -1,0 +1,337 @@
+BanjhuluSCowl:
+  Id: 24926
+  Data: 0
+  Amount: 1
+  Display: '&9&lCowl of Banjhulu'
+  Lores:
+  - '&cThe Mysteries of this Cowl'
+  - '&care Better Left Long Forgotten'
+  - '&cWhile No One Remembers Exactly'
+  - '&cWhere this came from its Magical Strength'
+  - '&cIs almost Tangible'
+  Enchants:
+  - PROTECTION_ENVIRONMENTAL:6
+  - PROTECTION_FALL:6
+  - PROTECTION_EXPLOSIONS:6
+  - PROTECTION_PROJECTILE:6
+  - DURABILITY:3
+  Tags:
+    Speed: 0.03
+    Health: 20
+    Attack: 4
+BanjhuluSRobe:
+  Id: 24927
+  Data: 0
+  Amount: 1
+  Display: '&9&lRobe of Banjhulu'
+  Lores:
+  - '&cThe Mysteries of this Robe'
+  - '&care Better Left Long Forgotten'
+  - '&cWhile No One Remembers Exactly'
+  - '&cWhere this came from its Magical Strength'
+  - '&cIs almost Tangible'
+  Enchants:
+  - PROTECTION_ENVIRONMENTAL:7
+  - PROTECTION_FALL:7
+  - PROTECTION_EXPLOSIONS:7
+  - PROTECTION_PROJECTILE:7
+  - DURABILITY:3
+  Tags:
+    Speed: 0.07
+    Health: 25
+    Attack: 6
+BanjhuluSPants:
+  Id: 24928
+  Data: 0
+  Amount: 1
+  Display: '&9&lPants of Banjhulu'
+  Lores:
+  - '&cThe Mysteries of these Pants'
+  - '&care Better Left Long Forgotten'
+  - '&cWhile No One Remembers Exactly'
+  - '&cWhere these came from their Magical Strength'
+  - '&cIs almost Tangible'
+  Enchants:
+  - PROTECTION_ENVIRONMENTAL:7
+  - PROTECTION_FALL:7
+  - PROTECTION_EXPLOSIONS:7
+  - PROTECTION_PROJECTILE:7
+  - DURABILITY:3
+  Tags:
+    Speed: 0.12
+    Health: 30
+    Attack: 5
+BanjhuluSShoes:
+  Id: 24929
+  Data: 0
+  Amount: 1
+  Display: '&9&lShoes of Banjhulu'
+  Lores:
+  - '&cThe Mysteries of these Shoes'
+  - '&care Better Left Long Forgotten'
+  - '&cWhile No One Remembers Exactly'
+  - '&cWhere these came from their Magical Strength'
+  - '&cIs almost Tangible'
+  Enchants:
+  - PROTECTION_ENVIRONMENTAL:6
+  - PROTECTION_FALL:6
+  - PROTECTION_EXPLOSIONS:6
+  - PROTECTION_PROJECTILE:6
+  - DURABILITY:3
+  Tags:
+    Speed: 0.13
+    Health: 20
+    Attack: 3
+BanjhuluBCowl:
+  Id: 24930
+  Data: 0
+  Amount: 1
+  Display: '&4&lCowl of Banjhulu'
+  Lores:
+  - '&9The Mysteries of this Cowl'
+  - '&9are Better Left Long Forgotten'
+  - '&9While No One Remembers Exactly'
+  - '&9Where this came from its Magical Strength'
+  - '&9Is almost Tangible'
+  Enchants:
+  - PROTECTION_ENVIRONMENTAL:6
+  - PROTECTION_FALL:6
+  - PROTECTION_EXPLOSIONS:10
+  - PROTECTION_PROJECTILE:6
+  - DURABILITY:3
+  Tags:
+    Health: 44
+    Attack: 6
+BanjhuluBRobe:
+  Id: 24931
+  Data: 0
+  Amount: 1
+  Display: '&4&lRobe of Banjhulu'
+  Lores:
+  - '&9The Mysteries of this Robe'
+  - '&9are Better Left Long Forgotten'
+  - '&9While No One Remembers Exactly'
+  - '&9Where this came from its Magical Strength'
+  - '&9Is almost Tangible'
+  Enchants:
+  - PROTECTION_ENVIRONMENTAL:7
+  - PROTECTION_FALL:7
+  - PROTECTION_EXPLOSIONS:10
+  - PROTECTION_PROJECTILE:7
+  - DURABILITY:3
+  Tags:
+    Health: 55
+    Attack: 4
+BanjhuluBPants:
+  Id: 24932
+  Data: 0
+  Amount: 1
+  Display: '&4&lPants of Banjhulu'
+  Lores:
+  - '&9The Mysteries of these Pants'
+  - '&9are Better Left Long Forgotten'
+  - '&9While No One Remembers Exactly'
+  - '&9Where these came from their Magical Strength'
+  - '&9Is almost Tangible'
+  Enchants:
+  - PROTECTION_ENVIRONMENTAL:7
+  - PROTECTION_FALL:7
+  - PROTECTION_EXPLOSIONS:10
+  - PROTECTION_PROJECTILE:7
+  - DURABILITY:3
+  Tags:
+    Health: 44
+    Attack: 6
+BanjhuluBShoes:
+  Id: 24933
+  Data: 0
+  Amount: 1
+  Display: '&4&lShoes of Banjhulu'
+  Lores:
+  - '&9The Mysteries of these Shoes'
+  - '&9are Better Left Long Forgotten'
+  - '&9While No One Remembers Exactly'
+  - '&9Where they came from their Magical Strength'
+  - '&9Is almost Tangible'
+  Enchants:
+  - PROTECTION_ENVIRONMENTAL:6
+  - PROTECTION_FALL:6
+  - PROTECTION_EXPLOSIONS:10
+  - PROTECTION_PROJECTILE:6
+  - DURABILITY:3
+  Tags:
+    Health: 50
+    Attack: 6
+MusicarosHelm:
+  Id: 24934
+  Data: 0
+  Amount: 1
+  Display: '&9&lHelm of Musicaros'
+  Lores:
+  - '&cOnce Worn by One of the Great Heroes'
+  - '&cWho Defeated the Mighty Tyrant Banjhulu'
+  - '&cThis Armor Still Shines with an Eerie Blue'
+  - '&cLight'
+  - <def>: '&5<15> defense'
+  Enchants:
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FALL:10
+  - PROTECTION_EXPLOSIONS:10
+  - PROTECTION_PROJECTILE:10
+  - DURABILITY:3
+  Tags:
+    Speed: 0.01
+    Health: 54
+    Attack: 11
+MusicarosArmor:
+  Id: 24935
+  Data: 0
+  Amount: 1
+  Display: '&9&lArmor of Musicaros'
+  Lores:
+  - '&cOnce Worn by One of the Great Heroes'
+  - '&cWho Defeated the Mighty Tyrant Banjhulu'
+  - '&cThis Armor Still Shines with an Eerie Blue'
+  - '&cLight'
+  - <def>: '&5<15> defense'
+  Enchants:
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FALL:10
+  - PROTECTION_EXPLOSIONS:10
+  - PROTECTION_PROJECTILE:10
+  - DURABILITY:3
+  Tags:
+    Speed: 0.04
+    Health: 64
+    Attack: 9
+MusicarosLegs:
+  Id: 24936
+  Data: 0
+  Amount: 1
+  Display: '&9&lLegs of Musicaros'
+  Lores:
+  - '&cOnce Worn by One of the Great Heroes'
+  - '&cWho Defeated the Mighty Tyrant Banjhulu'
+  - '&cThis Armor Still Shines with an Eerie Blue'
+  - '&cLight'
+  - <def>: '&5<15> defense'
+  Enchants:
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FALL:10
+  - PROTECTION_EXPLOSIONS:10
+  - PROTECTION_PROJECTILE:10
+  - DURABILITY:3
+  Tags:
+    Speed: 0.08
+    Health: 62
+    Attack: 11
+MusicarosBoots:
+  Id: 24937
+  Data: 0
+  Amount: 1
+  Display: '&9&lBoots of Musicaros'
+  Lores:
+  - '&cOnce Worn by One of the Great Heroes'
+  - '&cWho Defeated the Mighty Tyrant Banjhulu'
+  - '&cThis Armor Still Shines with an Eerie Blue'
+  - '&cLight'
+  - <def>: '&5<15> defense'
+  Enchants:
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FALL:10
+  - PROTECTION_EXPLOSIONS:10
+  - PROTECTION_PROJECTILE:10
+  - DURABILITY:3
+  Tags:
+    Speed: 0.1
+    Health: 50
+    Attack: 7
+SchindoleusHelm:
+  Id: 24938
+  Data: 0
+  Amount: 1
+  Display: '&4&lHelm of Schindoleus'
+  Lores:
+  - '&cOnce Worn by One of the Great Heroes'
+  - '&cWho Defeated the Mighty Tyrant Banjhulu'
+  - '&cThis Armor Seems Alien and Disorienting to'
+  - '&cYour Eye'
+  - <def>: '&5<30> defense'
+  - <thorns>: '&8<100>% chance of 1-4 damage'
+  Enchants:
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FALL:10
+  - PROTECTION_EXPLOSIONS:10
+  - PROTECTION_PROJECTILE:10
+  - DURABILITY:3
+  Tags:
+    Speed: -0.08
+    Health: 120
+    Attack: 7
+SchindoleusArmor:
+  Id: 24939
+  Data: 0
+  Amount: 1
+  Display: '&4&lArmor of Schindoleus'
+  Lores:
+  - '&cOnce Worn by One of the Great Heroes'
+  - '&cWho Defeated the Mighty Tyrant Banjhulu'
+  - '&cThis Armor Seems Alien and Disorienting to'
+  - '&cYour Eye'
+  - <def>: '&5<30> defense'
+  - <thorns>: '&8<100>% chance of 1-4 damage'
+  - <blastdef>: '&1+<30> explosion defense'
+  Enchants:
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FALL:10
+  - PROTECTION_EXPLOSIONS:10
+  - PROTECTION_PROJECTILE:10
+  - DURABILITY:3
+  Tags:
+    Speed: -0.16
+    Health: 145
+    Attack: 9
+SchindoleusLegs:
+  Id: 24940
+  Data: 0
+  Amount: 1
+  Display: '&4&lArmor of Schindoleus'
+  Lores:
+  - '&cOnce Worn by One of the Great Heroes'
+  - '&cWho Defeated the Mighty Tyrant Banjhulu'
+  - '&cThis Armor Seems Alien and Disorienting to'
+  - '&cYour Eye'
+  - <def>: '&5<30> defense'
+  - <thorns>: '&8<100>% chance of 1-4 damage'
+  Enchants:
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FALL:10
+  - PROTECTION_EXPLOSIONS:10
+  - PROTECTION_PROJECTILE:10
+  - DURABILITY:3
+  Tags:
+    Speed: -0.1
+    Health: 130
+    Attack: 8
+SchindoleusBoots:
+  Id: 24941
+  Data: 0
+  Amount: 1
+  Display: '&4&lBoots of Schindoleus'
+  Lores:
+  - '&cOnce Worn by One of the Great Heroes'
+  - '&cWho Defeated the Mighty Tyrant Banjhulu'
+  - '&cThis Armor Seems Alien and Disorienting to'
+  - '&cYour Eye'
+  - <def>: '&5<30> defense'
+  - <thorns>: '&8<100>% chance of 1-4 damage'
+  Enchants:
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FALL:10
+  - PROTECTION_EXPLOSIONS:10
+  - PROTECTION_PROJECTILE:10
+  - DURABILITY:3
+  Tags:
+    Speed: -0.08
+    Health: 120
+    Attack: 7

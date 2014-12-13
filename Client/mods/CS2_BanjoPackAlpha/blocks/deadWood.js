@@ -1,0 +1,37 @@
+name = "deadWood";
+material = "wood";
+stepSound = "wood";
+creativeTab = "buildingBlocks";
+
+addToCreative[0] = true;
+canSilkHarvest[0] = true;
+fortuneModifier[0] = 0;
+hardness[0] = 55.0;
+information[0] = "this wood has only|the form and not|the soul of wood|you will need to use an| InfiniXtribulator on it";
+toolClass[0] = "axe";
+harvestLevel[0] = 3;
+resistance[0] = 22.0;
+isWood[0] = true;
+drop[0] = "BanjoPackAlpha:woodchunk 1-2";
+textureFileXP[0] = "log_dead.png";
+textureFileXN[0] = "log_dead.png";
+textureFileYP[0] = "log_dead_top.png";
+textureFileYN[0] = "log_dead_top.png";
+textureFileZP[0] = "log_dead.png";
+textureFileZN[0] = "log_dead.png";
+
+addToCreative[1] = true;
+canSilkHarvest[1] = true;
+fortuneModifier[1] = 0;
+hardness[1] = 2.0;
+information[1] = "this wood has only|the form and not|the soul of wood|you will need to use an| InfiniXtribulator on it";
+toolClass[1] = "axe";
+harvestLevel[1] = 0;
+resistance[1] = 17.0;
+drop[1] = "BanjoPackAlpha:deadWood:1 1";
+textureFileXP[1] = "planks_dead.png";
+textureFileXN[1] = "planks_dead.png";
+textureFileYP[1] = "planks_dead.png";
+textureFileYN[1] = "planks_dead.png";
+textureFileZP[1] = "planks_dead.png";
+textureFileZN[1] = "planks_dead.png";

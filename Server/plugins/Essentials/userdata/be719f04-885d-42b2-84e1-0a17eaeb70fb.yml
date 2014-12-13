@@ -1,0 +1,31 @@
+timestamps:
+  login: 1403917293203
+  logout: 1403917663096
+  kits:
+    tools: 1403837963973
+  lastteleport: 1403838749420
+ipAddress: 75.115.231.218
+lastlocation:
+  world: world
+  x: 8134.29185926221
+  y: 192.0
+  z: 7039.42750771745
+  yaw: 134.51512
+  pitch: 17.160772
+logoutlocation:
+  world: world
+  x: 8134.017367799914
+  y: 208.75
+  z: 7031.7236634861165
+  yaw: -87.8225
+  pitch: 29.518463
+homes:
+  home:
+    world: world
+    x: 8131.1773564224395
+    y: 212.0
+    z: 7026.362915993984
+    yaw: -338.00137
+    pitch: 19.684494
+money: '197'
+lastAccountName: tylershy04

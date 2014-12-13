@@ -1,0 +1,10 @@
+ban:
+  reason: "\xa74Banned:\n\xa7rThe Ban Hammer has spoken!"
+  timeout: 0
+muted: true
+timestamps:
+  mute: 1406929927517
+  jail: 1406928985782
+jailed: true
+jail: '3'
+lastAccountName: golden

@@ -1,0 +1,30 @@
+timestamps:
+  login: 1408059639722
+  logout: 1408060329669
+  kits:
+    tools: 1406596278750
+  lastteleport: 1406684158194
+ipAddress: 76.119.245.242
+lastlocation:
+  world: world
+  x: 6680.473446367641
+  y: 42.0
+  z: -2552.4708117651394
+  yaw: 76.29014
+  pitch: -17.100002
+logoutlocation:
+  world: world
+  x: 6689.922093199228
+  y: 42.0
+  z: -2551.805055323371
+  yaw: 201.38675
+  pitch: 2.7000449
+homes:
+  home:
+    world: world
+    x: 997.5685795916497
+    y: 79.0
+    z: -3017.401080066051
+    yaw: -59.78188
+    pitch: 35.938942
+lastAccountName: anstypu

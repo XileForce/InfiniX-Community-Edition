@@ -1,0 +1,262 @@
+testitem:
+  Id: 7614
+  Data: 0
+  Amount: 1
+  Display: '&cArmour of Banjoro'
+  Lores:
+  - '&4Forged by the'
+  - '&4Ancient Banjorians'
+  - '&4this Armor Channels'
+  - '&4the Mighty Power of'
+  - '&eBANJO'
+  Enchants:
+  - THORNS:10
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FALL:10
+  - PROTECTION_EXPLOSIONS:10
+  - PROTECTION_PROJECTILE:10
+  Tags:
+    Speed: 0.5
+    Health: 100
+    Attack: 1000
+Eventreward1:
+  Id: 7613
+  Data: 0
+  Amount: 1
+  Display: '&6Special Hat'
+  Lores:
+  - A special hat for special people
+  Enchants:
+  - THORNS:10
+  - PROTECTION_ENVIRONMENTAL:4
+  - PROTECTION_FALL:4
+  - PROTECTION_EXPLOSIONS:10
+  - PROTECTION_PROJECTILE:4
+  Tags:
+    Speed: 0.3
+    Health: 20
+    Attack: 3
+Eventreward2:
+  Id: 9584
+  Data: 100
+  Amount: 1
+  Display: '&6Magic Stick'
+  Lores:
+  - Its a stick.....What?
+  Enchants:
+  - THORNS:10
+  Tags:
+    Speed: 0.1
+    Health: 4
+    Attack: 10
+BanjoSword:
+  Id: 280
+  Data: 0
+  Amount: 1
+  Display: '&cSwordofBanjoro'
+  Lores:
+  - '&4Forged by the'
+  - '&4Ancient Banjorians'
+  - '&4this Weapon Channels'
+  - '&4the Mighty Power of'
+  - '&eBANJO'
+  Enchants:
+  - THORNS:10
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FALL:10
+  - PROTECTION_EXPLOSIONS:10
+  - PROTECTION_PROJECTILE:10
+  Tags:
+    Speed: 0.5
+    Health: 10000
+    Attack: 10000
+Banjocloak:
+  Id: 24412
+  Data: 0
+  Amount: 1
+  Display: '&eCloak of Banjus the Great'
+  Lores:
+  - '&4Once Worn by the Mighty Banjus'
+  - '&4With it on Your Back You Feel Able'
+  - '&4to Withstand Nukes and Cleave Mountains'
+  Enchants:
+  - THORNS:5
+  - PROTECTION_ENVIRONMENTAL:3
+  - PROTECTION_FALL:2
+  - PROTECTION_EXPLOSIONS:2
+  - PROTECTION_PROJECTILE:2
+  Tags:
+    Speed: -0.02
+    Health: 60
+    Attack: 13
+Banjosword2:
+  Id: 268
+  Data: 0
+  Amount: 1
+  Display: '&2B&3a&4n&5j&6o&2s &3S&4p&5o&6r&2k'
+  Lores:
+  - '&4...But They Were All Decieved'
+  - '&4 For Another Spork Was Forged...'
+  Tags:
+    Speed: 0.7
+    Health: -19
+    Attack: 22
+BalrogCape:
+  Id: 24412
+  Data: 0
+  Amount: 1
+  Display: '&c&lCloak of the Balrog'
+  Lores:
+  - '&4Only Destruction Follows'
+  - '&4in the Wake of the'
+  - '&4&lAlmighty BALROG'
+  Enchants:
+  - THORNS:10
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FALL:10
+  - PROTECTION_EXPLOSIONS:10
+  - PROTECTION_PROJECTILE:10
+  Tags:
+    Speed: 0.5
+    Health: 10000
+    Attack: 100000
+Eventkey:
+  Id: 280
+  Data: 0
+  Amount: 1
+  Display: '&eEventkey'
+  Lores:
+  - '&4Forged by the'
+  - '&4Ancient Banjorians'
+  - '&4this Item Channels'
+  - '&4the Mighty Power of'
+  - '&eBANJO'
+  Enchants:
+  - THORNS:10
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FALL:10
+  - PROTECTION_EXPLOSIONS:10
+  - PROTECTION_PROJECTILE:10
+  Tags:
+    Speed: 1.5
+BanjusLegs:
+  Id: 24413
+  Data: 0
+  Amount: 1
+  Display: '&eLegs of Banjus the Great'
+  Lores:
+  - '&4Once Worn by the Mighty Banjus'
+  - '&4With it on Your Legs You Feel Able'
+  - '&4to Withstand Nukes and Cleave Mountains'
+  Enchants:
+  - THORNS:5
+  - PROTECTION_ENVIRONMENTAL:3
+  - PROTECTION_FALL:2
+  - PROTECTION_EXPLOSIONS:2
+  - PROTECTION_PROJECTILE:2
+  Tags:
+    Speed: 0.08
+    Health: 40
+    Attack: 9
+BanjusBoots:
+  Id: 24414
+  Data: 0
+  Amount: 1
+  Display: '&eBoots of Banjus the Great'
+  Lores:
+  - '&4Once Worn by the Mighty Banjus'
+  - '&4With them on Your Feet You Feel Able'
+  - '&4to Withstand Nukes and Cleave Mountains'
+  Enchants:
+  - THORNS:5
+  - PROTECTION_ENVIRONMENTAL:3
+  - PROTECTION_FALL:2
+  - PROTECTION_EXPLOSIONS:2
+  - PROTECTION_PROJECTILE:2
+  Tags:
+    Speed: 0.14
+    Health: 30
+    Attack: 6
+BanjusHelm:
+  Id: 24411
+  Data: 0
+  Amount: 1
+  Display: '&eCowl of Banjus the Great'
+  Lores:
+  - '&4Once Worn by the Mighty Banjus'
+  - '&4With it on Your Head You Feel Able'
+  - '&4to Withstand Nukes and Cleave Mountains'
+  Enchants:
+  - THORNS:5
+  - PROTECTION_ENVIRONMENTAL:3
+  - PROTECTION_FALL:2
+  - PROTECTION_EXPLOSIONS:2
+  - PROTECTION_PROJECTILE:2
+  Tags:
+    Speed: 0.04
+    Health: 20
+    Attack: 8
+teststick0:
+  Id: 280
+  Data: 0
+  Amount: 1
+  Display: '&cSwordofBanjoro'
+  Lores:
+  - '&4Forged by the'
+  - '&4Ancient Banjorians'
+  - '&4this Weapon Channels'
+  - '&4the Mighty Power of'
+  - '&eBANJO'
+  Tags:
+    Health: 10000
+    Attack: -1000
+ZeraS:
+  Id: 280
+  Data: 0
+  Amount: 1
+  Display: '&cZeraZ'
+  Tags:
+    Health: -90
+    Attack: -24
+BanjoSwordS:
+  Id: 280
+  Data: 0
+  Amount: 1
+  Display: '&cSwordofBanjoro'
+  Lores:
+  - '&4Forged by the'
+  - '&4Ancient Banjorians'
+  - '&4this Weapon Channels'
+  - '&4the Mighty Power of'
+  - '&eBANJO'
+  Enchants:
+  - THORNS:10
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FALL:10
+  - PROTECTION_EXPLOSIONS:10
+  - PROTECTION_PROJECTILE:10
+  Tags:
+    Speed: 0.5
+    Health: 10000
+    Attack: 1000
+BanjoSwordU:
+  Id: 280
+  Data: 0
+  Amount: 1
+  Display: '&cSwordofBanjoro'
+  Lores:
+  - '&4Forged by the'
+  - '&4Ancient Banjorians'
+  - '&4this Weapon Channels'
+  - '&4the Mighty Power of'
+  - '&eBANJO'
+  Enchants:
+  - THORNS:10
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FALL:10
+  - PROTECTION_EXPLOSIONS:10
+  - PROTECTION_PROJECTILE:10
+  Tags:
+    Speed: 0.5
+    Health: 100000
+    Attack: 100000000

@@ -1,0 +1,23 @@
+timestamps:
+  login: 1412385750590
+  logout: 1412387079651
+  lastteleport: 1412386271716
+  kits:
+    notch: 1412386412879
+    tools: 1412386150110
+ipAddress: 173.89.216.151
+lastlocation:
+  world: world
+  x: 34.58602956477995
+  y: 69.0
+  z: 11.65444432611732
+  yaw: -103.61991
+  pitch: 11.976464
+logoutlocation:
+  world: DIM_SPACESTATION2
+  x: 0.5124241356970742
+  y: 65.20000000298023
+  z: -18.977380694533164
+  yaw: 91.515305
+  pitch: 36.150063
+lastAccountName: allhandsondeck19

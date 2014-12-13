@@ -1,0 +1,30 @@
+timestamps:
+  login: 1409935676681
+  lastteleport: 1409938176695
+  logout: 1409938532496
+ipAddress: 62.226.242.157
+lastlocation:
+  world: world
+  x: -134.16982003554585
+  y: 5.0
+  z: -31.815899629541477
+  yaw: -64.933716
+  pitch: 52.35016
+logoutlocation:
+  world: DIM-1
+  x: -199.391839232381
+  y: 29.0
+  z: 337.55608384491666
+  yaw: -337.78467
+  pitch: 48.00021
+money: '0.00'
+homes:
+  home:
+    world: world
+    x: -132.96315213665866
+    y: 5.0
+    z: -15.280483735257583
+    yaw: -65.38447
+    pitch: 16.349998
+afk: false
+lastAccountName: sduc_tricex

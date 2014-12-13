@@ -1,0 +1,608 @@
+testitem:
+  Id: 7614
+  Data: 0
+  Amount: 1
+  Display: '&cArmour of Banjoro'
+  Lore:
+  - '&4Forged by the'
+  - '&4Ancient Banjorians'
+  - '&4this Armor Channels'
+  - '&4the Mighty Power of'
+  - '&eBANJO'
+  Enchantments:
+  - THORNS:10
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FALL:10
+  - PROTECTION_EXPLOSIONS:10
+  - PROTECTION_PROJECTILE:10
+  Options:
+    Speed: 0.5
+    Health: 100
+    Attack: 1000
+Eventreward1:
+  Id: 7613
+  Data: 0
+  Amount: 1
+  Display: '&6Special Hat'
+  Lore:
+  - A special hat for special people
+  Enchantments:
+  - THORNS:10
+  - PROTECTION_ENVIRONMENTAL:4
+  - PROTECTION_FALL:4
+  - PROTECTION_EXPLOSIONS:10
+  - PROTECTION_PROJECTILE:4
+  Options:
+    Speed: 0.3
+    Health: 20
+    Attack: 3
+Eventreward2:
+  Id: 9584
+  Data: 100
+  Amount: 1
+  Display: '&6Magic Stick'
+  Lore:
+  - Its a stick.....What?
+  Enchantments:
+  - THORNS:10
+  Options:
+    Speed: 0.1
+    Health: 4
+    Attack: 10
+BanjoSword:
+  Id: 280
+  Data: 0
+  Amount: 1
+  Display: '&cSwordofBanjoro'
+  Lore:
+  - '&4Forged by the'
+  - '&4Ancient Banjorians'
+  - '&4this Weapon Channels'
+  - '&4the Mighty Power of'
+  - '&eBANJO'
+  Enchantments:
+  - THORNS:10
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FALL:10
+  - PROTECTION_EXPLOSIONS:10
+  - PROTECTION_PROJECTILE:10
+  Options:
+    Speed: 0.5
+    Health: 10000
+    Attack: 10000
+BanjusCloak:
+  Id: 24412
+  Data: 0
+  Amount: 1
+  Display: '&eCloak of Banjus the Great'
+  Lore:
+  - '&4Once Worn by the Mighty Banjus'
+  - '&4With it on Your Back You Feel Able'
+  - '&4to Withstand Nukes and Cleave Mountains'
+  Enchantments:
+  - THORNS:5
+  - PROTECTION_ENVIRONMENTAL:3
+  - PROTECTION_FALL:2
+  - PROTECTION_EXPLOSIONS:2
+  - PROTECTION_PROJECTILE:2
+  Options:
+    Speed: -0.02
+    Health: 60
+    Attack: 13
+Banjosword2:
+  Id: 268
+  Data: 0
+  Amount: 1
+  Display: '&2B&3a&4n&5j&6o&2s &3S&4p&5o&6r&2k'
+  Lore:
+  - '&4...But They Were All Decieved'
+  - '&4 For Another Spork Was Forged...'
+  Options:
+    Speed: 0.7
+    Health: -19
+    Attack: 22
+BalrogCape:
+  Id: 24412
+  Data: 0
+  Amount: 1
+  Display: '&c&lCloak of the Balrog'
+  Lore:
+  - '&4Only Destruction Follows'
+  - '&4in the Wake of the'
+  - '&4&lAlmighty BALROG'
+  Enchantments:
+  - THORNS:10
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FALL:10
+  - PROTECTION_EXPLOSIONS:10
+  - PROTECTION_PROJECTILE:10
+  Options:
+    Speed: 0.5
+    Health: 10000
+    Attack: 100000
+Eventkey:
+  Id: 280
+  Data: 0
+  Amount: 1
+  Display: '&eEventkey'
+  Lore:
+  - '&4Forged by the'
+  - '&4Ancient Banjorians'
+  - '&4this Item Channels'
+  - '&4the Mighty Power of'
+  - '&eBANJO'
+  Enchantments:
+  - THORNS:10
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FALL:10
+  - PROTECTION_EXPLOSIONS:10
+  - PROTECTION_PROJECTILE:10
+  Options:
+    Speed: 1.5
+BanjusLegs:
+  Id: 24413
+  Data: 0
+  Amount: 1
+  Display: '&eLegs of Banjus the Great'
+  Lore:
+  - '&4Once Worn by the Mighty Banjus'
+  - '&4With it on Your Legs You Feel Able'
+  - '&4to Withstand Nukes and Cleave Mountains'
+  Enchantments:
+  - THORNS:5
+  - PROTECTION_ENVIRONMENTAL:3
+  - PROTECTION_FALL:2
+  - PROTECTION_EXPLOSIONS:2
+  - PROTECTION_PROJECTILE:2
+  Options:
+    Speed: 0.08
+    Health: 40
+    Attack: 9
+BanjusBoots:
+  Id: 24414
+  Data: 0
+  Amount: 1
+  Display: '&eBoots of Banjus the Great'
+  Lore:
+  - '&4Once Worn by the Mighty Banjus'
+  - '&4With them on Your Feet You Feel Able'
+  - '&4to Withstand Nukes and Cleave Mountains'
+  Enchantments:
+  - THORNS:5
+  - PROTECTION_ENVIRONMENTAL:3
+  - PROTECTION_FALL:2
+  - PROTECTION_EXPLOSIONS:2
+  - PROTECTION_PROJECTILE:2
+  Options:
+    Speed: 0.14
+    Health: 30
+    Attack: 6
+BanjusHelm:
+  Id: 24411
+  Data: 0
+  Amount: 1
+  Display: '&eCowl of Banjus the Great'
+  Lore:
+  - '&4Once Worn by the Mighty Banjus'
+  - '&4With it on Your Head You Feel Able'
+  - '&4to Withstand Nukes and Cleave Mountains'
+  Enchantments:
+  - THORNS:5
+  - PROTECTION_ENVIRONMENTAL:3
+  - PROTECTION_FALL:2
+  - PROTECTION_EXPLOSIONS:2
+  - PROTECTION_PROJECTILE:2
+  Options:
+    Speed: 0.04
+    Health: 20
+    Attack: 8
+teststick0:
+  Id: 280
+  Data: 0
+  Amount: 1
+  Display: '&cSwordofBanjoro'
+  Lore:
+  - '&4Forged by the'
+  - '&4Ancient Banjorians'
+  - '&4this Weapon Channels'
+  - '&4the Mighty Power of'
+  - '&eBANJO'
+  Options:
+    Health: 10000
+    Attack: -1000
+ZeraS:
+  Id: 280
+  Data: 0
+  Amount: 1
+  Display: '&cZeraZ'
+  Options:
+    Health: -90
+    Attack: -24
+BanjoSwordS:
+  Id: 280
+  Data: 0
+  Amount: 1
+  Display: '&cSwordofBanjoro'
+  Lore:
+  - '&4Forged by the'
+  - '&4Ancient Banjorians'
+  - '&4this Weapon Channels'
+  - '&4the Mighty Power of'
+  - '&eBANJO'
+  Enchantments:
+  - THORNS:10
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FALL:10
+  - PROTECTION_EXPLOSIONS:10
+  - PROTECTION_PROJECTILE:10
+  Options:
+    Speed: 0.5
+    Health: 10000
+    Attack: 1000
+BanjoSwordU:
+  Id: 280
+  Data: 0
+  Amount: 1
+  Display: '&cSwordofBanjoro'
+  Lore:
+  - '&4Forged by the'
+  - '&4Ancient Banjorians'
+  - '&4this Weapon Channels'
+  - '&4the Mighty Power of'
+  - '&eBANJO'
+  Enchantments:
+  - THORNS:10
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FALL:10
+  - PROTECTION_EXPLOSIONS:10
+  - PROTECTION_PROJECTILE:10
+  Options:
+    Speed: 0.5
+    Health: 100000
+    Attack: 100000000
+HepatizonS:
+  Id: 6712
+  Data: 0
+  Amount: 1
+  Display: '&6Broken Sword of the Forgotten Hero'
+  Lore:
+  - '&eOnce Wielded Against Ancient Evils'
+  - '&eThis Weapon Could Use a Sh*t Ton of Paint'
+  Enchantments:
+  - DAMAGE_UNDEAD:6
+  - DAMAGE_ALL:3
+  - DURABILITY:10
+  Options:
+    Speed: 0.08
+    Health: 5
+    Attack: 1
+DamascusS:
+  Id: 6762
+  Data: 0
+  Amount: 1
+  Display: '&6Sword of the Soldier'
+  Lore:
+  - '&eA Reliable Sword that Protects Better than'
+  - '&eit Damages'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:6
+  - DAMAGE_ALL:3
+  - DURABILITY:10
+  - THORNS:4
+  Options:
+    Health: 15
+    Attack: 1
+AngmallenS:
+  Id: 6812
+  Data: 0
+  Amount: 1
+  Display: '&eDecorative Sword'
+  Lore:
+  - '&eThis Sword Shines Brightly but is All'
+  - '&ebut Useless in Combat'
+  Options:
+    Health: 5
+    Attack: 1
+SteelS:
+  Id: 6862
+  Data: 0
+  Amount: 1
+  Display: '&7Lost Sword of the Soldier'
+  Lore:
+  - '&eLegends Say that Though this Sword was Lost'
+  - '&eWhen its Owner Truly Needed it it was Within Reach'
+  - '&7some believe he had just overlooked it earlier'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:6
+  - DAMAGE_ALL:4
+  - DURABILITY:10
+  - THORNS:3
+  Options:
+    Health: 15
+    Attack: 2
+IgnatiusS:
+  Id: 7162
+  Data: 0
+  Amount: 1
+  Display: '&cSword of the Smith'
+  Lore:
+  - '&eIt is Said that when Eoldren the Smith was on his'
+  - '&eDeath Bed he Recieved a Vision in which he Recieved a Boon'
+  - '&efrom Vorddran the Smith God Telling him his Duty was not yet Done'
+  - '&ethe Next Day they found this Sword where his Body had been, and his'
+  - '&eBody was Nowhere in Sight'
+  Enchantments:
+  - PROTECTION_FIRE:6
+  - DAMAGE_ALL:3
+  - DURABILITY:10
+  - FIRE_ASPECT:4
+  Options:
+    Health: 5
+    Attack: 4
+SIronS:
+  Id: 7212
+  Data: 0
+  Amount: 1
+  Display: '&5Dllokrun Sword'
+  Lore:
+  - '&4When the Evil Lord Glikknir had Finished Gathering'
+  - '&4his Armies he Set them to Smithing Swords that Could'
+  - '&4Challenge the Might of the Blessed Swords of &eYllthala'
+  - '&4After Seven Days of Screams these Swords Emerged from the'
+  - '&4Forges Strangely though Thousands of them were forged'
+  - '&4no Accounts of their Forging or of the Smiths who did it'
+  - '&4have Ever been Recovered'
+  Enchantments:
+  - DAMAGE_ALL:6
+  - DURABILITY:10
+  - THORNS:1
+  - FIRE_ASPECT:3
+  Options:
+    Health: 2
+    Attack: 9
+MidasiumS:
+  Id: 7312
+  Data: 0
+  Amount: 1
+  Display: '&eSoldier Sword of Yllthala'
+  Lore:
+  - '&eRadiant Light Leaks from this Sword'
+  - '&eIts Power Against the Undead is not something to Reckon with'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:3
+  - DAMAGE_ALL:5
+  - DURABILITY:10
+  - DAMAGE_UNDEAD:7
+  Options:
+    Health: 25
+    Attack: 2
+VyroxeresS:
+  Id: 7362
+  Data: 0
+  Amount: 1
+  Display: '&0Fallen Sword of the Paladin'
+  Lore:
+  - '&aOnce a Pure and Holy Sword'
+  - '&athis Weapon was Tainted when Glikknir'
+  - '&aTricked a Paladin into Slaying an Innocent'
+  - '&aSince then it Corrupts Everything it Touches'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:6
+  - DAMAGE_ALL:9
+  - DURABILITY:10
+  - THORNS:6
+  Options:
+    Health: -5
+    Attack: 15
+CeruclaseS:
+  Id: 7412
+  Data: 0
+  Amount: 1
+  Display: '&1Zonlanga Sword'
+  Lore:
+  - '&eWhen All Seemed Lost for the Yllthala People'
+  - '&ethere Arrived a Third Party to the War of Darkness'
+  - '&eMasters of Time the Zonlanga Could Move Faster than'
+  - '&ethe Eye can See and Cut With Deadly Precision'
+  Enchantments:
+  - DAMAGE_ALL:10
+  - DURABILITY:10
+  Options:
+    Speed: 0.8
+    Health: -15
+    Attack: 15
+KalendriteS:
+  Id: 7512
+  Data: 0
+  Amount: 1
+  Display: '&eSword of the Yllthalan Lords'
+  Lore:
+  - '&eThis Sword Radiates Light'
+  - '&eIt Judges those it Cuts and those who are Unnatural'
+  - '&eAre Dealt Decisive Blows'
+  - '&eIts Fatal Flaw was Exposed in the War of Darkness However'
+  - '&eFor though Evil is not Confined to Abominations Alone'
+  - '&eThis Sword Does Little to those who have Evil in their Hearts yet'
+  - '&eStill take Breath'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FIRE:10
+  - PROTECTION_PROJECTILE:10
+  - DURABILITY:10
+  - THORNS:10
+  - DAMAGE_UNDEAD:10
+  Options:
+    Health: 85
+    Attack: -7
+VulcaniteS:
+  Id: 7562
+  Data: 0
+  Amount: 1
+  Display: '&cSword of Vorddran'
+  Lore:
+  - '&cPerhaps Forged by Vorddran Himself'
+  - '&cRegardless it Cuts Really Well and Lights'
+  - '&cStuff on Fire....Good Times'
+  Enchantments:
+  - PROTECTION_FIRE:10
+  - DAMAGE_ALL:7
+  - DURABILITY:10
+  - THORNS:4
+  - FIRE_ASPECT:10
+  Options:
+    Health: 5
+    Attack: 17
+SanguiniteS:
+  Id: 7612
+  Data: 0
+  Amount: 1
+  Display: '&0Sword of the WitherLord'
+  Lore:
+  - '&eThough Originally Reluctant, Eventually the WitherLord Joined'
+  - '&eGlikknirs Forces out of his Hatred of Yllthala'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:3
+  - DAMAGE_ALL:10
+  - DURABILITY:10
+  - THORNS:10
+  Options:
+    Health: 25
+    Attack: 20
+SSteelS:
+  Id: 7662
+  Data: 0
+  Amount: 1
+  Display: '&0&lSword of Glikknir'
+  Lore:
+  - '&cForged from Pure Evil the Terrible Toll'
+  - '&cthis Sword Exacts on its Wielder May Destroy'
+  - '&cthose Frail in Mind or Body'
+  - '&c&lDO NOT WIELD IT UNLESS YOU CAN WITHSTAND THIS POWER!'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:10
+  - PROTECTION_FIRE:10
+  - PROTECTION_EXPLOSIONS:10
+  - PROTECTION_PROJECTILE:10
+  - DAMAGE_ALL:10
+  - DURABILITY:10
+  - THORNS:10
+  - LOOT_BONUS_MOBS:6
+  - KNOCKBACK:9
+  Options:
+    Health: -60
+    Attack: 45
+InolashiteS:
+  Id: 7712
+  Data: 0
+  Amount: 1
+  Display: '&1&lSword of Time'
+  Lore:
+  - '&eThe True Power in Zonlanga this Powerful Once-Sentient'
+  - '&eSword Directed the Time Masters Before the Great War'
+  - '&eOnce Able to Litteraly Cleave Time into Twain it Sacrificed'
+  - '&eIts Consciousness and Much of its Power to Seal Away Glikknir'
+  Enchantments:
+  - LOOT_BONUS_MOBS:7
+  - PROTECTION_ENVIRONMENTAL:10
+  - DAMAGE_ALL:10
+  - DURABILITY:10
+  Options:
+    Speed: 0.25
+    Health: 40
+    Attack: 22
+AtlarusS:
+  Id: 8512
+  Data: 0
+  Amount: 1
+  Display: '&e&lHoly Sword of Yllthala'
+  Lore:
+  - '&eResponsible for the Ten Thousand Years of Prosperity and Peace'
+  - '&eYllthala Experienced Before the War of Shadows'
+  - '&eSome Believe this Sword a Divine Gift yet Others Believe it a Divinity Itself'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:10
+  - DAMAGE_ALL:10
+  - DURABILITY:10
+  - THORNS:5
+  - LOOT_BONUS_MOBS:10
+  - LOOT_BONUS_BLOCKS:10
+  - DIG_SPEED:10
+  - DAMAGE_UNDEAD:10
+  Options:
+    Health: 135
+    Attack: 10
+BanjusCloakN:
+  Id: 24412
+  Data: 0
+  Amount: 1
+  Display: '&eCloak of Banjus the Great'
+BanjusLegsN:
+  Id: 24413
+  Data: 0
+  Amount: 1
+  Display: '&eLegs of Banjus the Great'
+BanjusBootsN:
+  Id: 24414
+  Data: 0
+  Amount: 1
+  Display: '&eBoots of Banjus the Great'
+BanjusHelmN:
+  Id: 24411
+  Data: 0
+  Amount: 1
+  Display: '&eCowl of Banjus the Great'
+Eartharmr:
+  Id: 20298
+  Data: 0
+  Amount: 1
+  Display: 'eartharmr'
+Ethersword:
+  Id: 10261
+  Data: 0
+  Amount: 1
+  Display: 'ethersword'
+Blacksword:
+  Id: 7962
+  Data: 0
+  Amount: 1
+  Display: 'Blacksword'
+RapierWeap:
+  Id: 13543
+  Data: 0
+  Amount: 1
+  Display: 'Rapier'
+DHood:
+  Id: 10920
+  Data: 0
+  Amount: 1
+  Display: 'Dhood'
+DRobe:
+  Id: 10921
+  Data: 0
+  Amount: 1
+  Display: 'DRobe'
+DShoes:
+  Id: 10922
+  Data: 0
+  Amount: 1
+  Display: 'DShoes'
+DHand:
+  Id: 10923
+  Data: 0
+  Amount: 1
+  Display: 'Dhand'
+BlackHelm:
+  Id: 7963
+  Data: 0
+  Amount: 1
+  Display: 'Blackhood'
+BlackLegs:
+  Id: 7965
+  Data: 0
+  Amount: 1
+  Display: 'BlackLegs'
+BlackBoots:
+  Id: 7966
+  Data: 0
+  Amount: 1
+  Display: 'BlackBoots'

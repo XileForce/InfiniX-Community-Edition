@@ -1,0 +1,68 @@
+---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 11/8/14 4:54 PM
+Description: Exception in server tick loop
+
+cpw.mods.fml.common.LoaderException: java.lang.NoSuchFieldError: materialPureifiedCertusQuartzCrystal
+	at cpw.mods.fml.common.LoadController.transition(LoadController.java:162)
+	at cpw.mods.fml.common.Loader.preinitializeMods(Loader.java:515)
+	at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:88)
+	at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:319)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:170)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:620)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NoSuchFieldError: materialPureifiedCertusQuartzCrystal
+	at thaumicenergistics.registries.RecipeRegistry.registerComponents(RecipeRegistry.java:73)
+	at thaumicenergistics.registries.RecipeRegistry.registerRecipies(RecipeRegistry.java:474)
+	at thaumicenergistics.proxy.CommonProxy.registerRecipes(CommonProxy.java:54)
+	at thaumicenergistics.ThaumicEnergistics.preInit(ThaumicEnergistics.java:173)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:513)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:208)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:187)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:118)
+	at cpw.mods.fml.common.Loader.preinitializeMods(Loader.java:513)
+	... 5 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 8 (amd64) version 6.2
+	Java Version: 1.8.0_11, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 270874880 bytes (258 MB) / 732569600 bytes (698 MB) up to 2112618496 bytes (2014 MB)
+	JVM Flags: 4 total; -XX:PermSize=128m -XX:MaxPermSize=256m -Xincgc -Xmx2G
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: ~~ERROR~~ NullPointerException: null
+	AE2 Version: alpha rv2-alpha-17 for Forge 10.13.2.1230
+	Mantle Environment: DO NOT REPORT THIS CRASH! Unsupported mods in environment: bukkit
+	TConstruct Environment: Environment healthy.
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'cauldron,craftbukkit,mcpc,fml,forge'
+	Type: Dedicated Server (map_server.txt)

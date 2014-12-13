@@ -1,0 +1,33 @@
+timestamps:
+  login: 1403911318234
+  lastteleport: 1403911743905
+  kits:
+    color: 1403740687422
+    notch: 1403911619805
+    tools: 1403909315197
+  logout: 1403912257814
+ipAddress: 107.196.214.222
+lastlocation:
+  world: world
+  x: -1137.0508477836174
+  y: 76.0
+  z: -364.69999998807907
+  yaw: -308.23526
+  pitch: 1.3500139
+money: '197'
+homes:
+  home:
+    world: world
+    x: -1207.365179957801
+    y: 125.0
+    z: -207.46266948333727
+    yaw: -93.43535
+    pitch: -31.649963
+logoutlocation:
+  world: world
+  x: -1206.755807898147
+  y: 125.0
+  z: -207.30000001192093
+  yaw: 251.86472
+  pitch: -47.25001
+lastAccountName: connor1234567821

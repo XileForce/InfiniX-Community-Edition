@@ -1,0 +1,19 @@
+timestamps:
+  login: 1409007381155
+  logout: 1409007396828
+ipAddress: 24.176.58.60
+lastlocation:
+  world: world
+  x: -19.5
+  y: 64.0
+  z: -17.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: DIM_SPACESTATION2
+  x: 0.5
+  y: 65.0
+  z: -18.5
+  yaw: -0.7346821
+  pitch: 1.9500674
+lastAccountName: lightningdoesmc

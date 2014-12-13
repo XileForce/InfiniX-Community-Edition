@@ -1,0 +1,405 @@
+UnusuallyUsualKey:
+  Id: 25299
+  Data: 1
+  Amount: 1
+  Display: '&eUnusually Usual Key'
+  Lore:
+  - '&5...........................................................................'
+  - '&5&o Try RightClicking With it in Your Hand'
+KeyofYOLO:
+  Id: 25299
+  Data: 1
+  Amount: 1
+  Display: '&aKey of YOLO'
+  Lore:
+  - '&aJust.... Dont Even Ask....'
+  - '&5Try RightClicking With it in Your Hand.'
+SilveryKey:
+  Id: 25299
+  Data: 1
+  Amount: 1
+  Display: '&7Silvery Key'
+  Lore:
+  - '&8As You Stare at this Key You Have the Strange'
+  - '&8Feeling that it Stares Back at You...'
+KeyofDeath:
+  Id: 25299
+  Data: 1
+  Amount: 1
+  Display: '&0&lKey of Death'
+  Lore:
+  - '&0&oThe Key is Hard and Cold in Your Grip,'
+  - '&7&oa Chill Goes Down Your Spine...'
+KeyofMagic:
+  Id: 25299
+  Data: 1
+  Amount: 1
+  Display: '&0Key of &k1111'
+  Lore:
+  - '&cA You Dont Seem to be Able to Comprehend the True'
+  - '&cIdentity of this Key or its Origins.'
+KeyofStupidity:
+  Id: 25299
+  Data: 1
+  Amount: 1
+  Display: '&2Key of Stupidity'
+  Lore:
+  - '&2This key Seems to be Singing Loudly and Annoyingly'
+  - '&2/Shrek is Love Shrek is Life/'
+  - '&2You Feel the Urge to Crush it into Pieces.'
+RustyKey:
+  Id: 25299
+  Data: 1
+  Amount: 1
+  Display: '&eRusty Key'
+  Lore:
+  - '&5&o A Pretty Old Looking Key Watch Out for Rust.'
+  - '&5&o Try Rightclicking With it in Your Hand.'
+KeyofMusic:
+  Id: 25299
+  Data: 1
+  Amount: 1
+  Display: '&3Musical Key'
+  Lore:
+  - '&3You Hear a Sound Like a Distant Shore'
+  - '&3Emanating from this Key.'
+KeyofLight:
+  Id: 25299
+  Data: 1
+  Amount: 1
+  Display: '&c&lKey of Searing Light'
+  Lore:
+  - '&eThe Key Blazes with Unbearbly Bright Light.'
+  - '&eEven with your Eyes Closed you Cannot Escape its Brilliance.'
+KeyofShadows:
+  Id: 25299
+  Data: 1
+  Amount: 1
+  Display: '&0&lKey of Shadow Scales'
+  Lore:
+  - '&7A Strange Darkness Surrounds this Key'
+  - '&7As you Hold it you Feel it Bite into Your Hand.'
+KeyofFlames:
+  Id: 25299
+  Data: 1
+  Amount: 1
+  Display: '&c&lKey of Angry Flames'
+  Lore:
+  - '&eThis Key is Hot to the Touch, burning your Skin.'
+  - '&ein the Reflection off the Metal You See the Fires of Hell!'
+  - '&eContained Within.'
+RareKey1:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey1'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey2:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey2'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey3:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey3'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey4:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey4'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey5:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey5'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey6:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey6'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey7:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey7'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey8:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey8'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey9:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey9'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey10:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey10'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey11:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey11'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey12:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey12'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey13:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey13'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey14:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey14'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey15:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey15'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey16:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey16'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey17:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey17'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey18:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey18'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey19:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey19'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey20:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey20'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey21:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey21'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey22:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey22'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey23:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey23'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey24:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey24'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey25:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey25'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey26:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey26'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey27:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey27'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey28:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey28'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey29:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey29'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey30:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey30'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey31:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey31'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey32:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey32'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey33:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey33'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey34:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey34'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'
+RareKey35:
+  Id: 10886
+  Data: 54
+  Amount: 1
+  Display: '&eRareKey35'
+  Lore:
+  - '&eThis Key Pulses with Arcane Power Sending'
+  - '&eWaves of Eldritch Energy into the World...'
+  - '&eWhatever is Linked to it Must be Powerful Indeed...'

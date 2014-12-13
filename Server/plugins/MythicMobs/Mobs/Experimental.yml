@@ -1,0 +1,7 @@
+TEST:
+  Mobtype: zombie
+  Display: 'TEST'
+  Health: 5000
+  Damage: 10
+  Skills:
+  - projectile Snowball:1:2:25 >0 1
