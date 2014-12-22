@@ -66,37 +66,37 @@ world-settings:
     infinite-water-source: true
     entity-despawn-immediate: true
     worldgen-Metallurgy-WorldGenMetals: true
-    worldgen-chisel-GeneratorMarble: true
-    worldgen-Natura-BaseTreeWorldgen: true
-    worldgen-necromancy-WorldGenerator: true
-    worldgen-BigReactors-BRWorldGenerator: true
-    worldgen-ExtraUtilities-WorldGenEnderLillies: true
-    worldgen-Mekanism-GenHandler: true
-    worldgen-TConstruct-TBaseWorldGenerator: true
-    worldgen-Steamcraft-SteamcraftOreGen: true
-    worldgen-emashercore-WorldGenMine: true
+    worldgen-witchery-WitcheryWorldGenerator: true
+    worldgen-CoFHCore-WorldHandler: true
     worldgen-Eln-OreDescriptor: true
+    worldgen-Mekanism-GenHandler: true
     worldgen-HydCraft-OreGenerator: true
-    worldgen-Natura-BaseCloudWorldgen: true
-    worldgen-IC2-IC2: true
-    worldgen-appliedenergistics2-QuartzWorldGen: true
-    worldgen-appliedenergistics2-MeteoriteWorldGen: true
-    worldgen-Forestry-WorldGenerator: true
-    worldgen-Thaumcraft-ThaumcraftWorldGenerator: true
-    worldgen-NetherOres-NetherOresWorldGenHandler: true
-    worldgen-emashercore-WorldGenHemp: true
-    worldgen-PneumaticCraft-WorldGeneratorPneumaticCraft: true
-    worldgen-chisel-GeneratorLimestone: true
     worldgen-UltraTech-UltratechWorldGenerator: true
-    worldgen-bluepower-WorldGenerationHandler: true
     worldgen-Natura-BaseCropWorldgen: true
+    worldgen-Natura-BaseTreeWorldgen: true
+    worldgen-emashercore-WorldGenMine: true
+    worldgen-TConstruct-SlimeIslandGen: true
+    worldgen-NetherOres-NetherOresWorldGenHandler: true
+    worldgen-factorization-: true
+    worldgen-IC2-IC2: true
+    worldgen-emashercore-WorldGenHemp: true
+    worldgen-appliedenergistics2-MeteoriteWorldGen: true
+    worldgen-Steamcraft-SteamcraftOreGen: true
+    worldgen-chisel-GeneratorMarble: true
+    worldgen-bluepower-WorldGenerationHandler: true
+    worldgen-BigReactors-BRWorldGenerator: true
+    worldgen-minechem-MinechemGeneration: true
+    worldgen-appliedenergistics2-QuartzWorldGen: true
     worldgen-emashercore-WorldGenPondScum: true
     worldgen-BanjoPackAlpha-WorldGenHandler: true
-    worldgen-TConstruct-SlimeIslandGen: true
-    worldgen-witchery-WitcheryWorldGenerator: true
-    worldgen-minechem-MinechemGeneration: true
-    worldgen-factorization-: true
-    worldgen-CoFHCore-WorldHandler: true
+    worldgen-ExtraUtilities-WorldGenEnderLillies: true
+    worldgen-Natura-BaseCloudWorldgen: true
+    worldgen-chisel-GeneratorLimestone: true
+    worldgen-PneumaticCraft-WorldGeneratorPneumaticCraft: true
+    worldgen-Thaumcraft-ThaumcraftWorldGenerator: true
+    worldgen-necromancy-WorldGenerator: true
+    worldgen-Forestry-WorldGenerator: true
+    worldgen-TConstruct-TBaseWorldGenerator: true
     worldgen-evilcraft-OreGenerator: true
     worldgen-evilcraft-DarkTempleGenerator: true
     worldgen-MagicBees-WorldGeneratorHandler: true
@@ -153,9 +153,9 @@ world-environment-settings:
     keep-world-loaded: false
   wyvernend:
     keep-world-loaded: true
-  bedrock:
-    keep-world-loaded: false
   dreamworld:
     keep-world-loaded: false
   torment:
+    keep-world-loaded: false
+  bedrock:
     keep-world-loaded: false
